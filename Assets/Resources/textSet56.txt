@@ -1,0 +1,20 @@
+Player
+Animation
+16
+TextUp
+Player
+알렉스 씨 집이..
+TextDown
+Camera
+0
+2
+TextUp
+Player
+저기라고 했던가?
+TextDown
+Camera
+Return
+2
+TextUp
+Player
+어서 가볼까?

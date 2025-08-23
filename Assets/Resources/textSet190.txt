@@ -1,0 +1,10 @@
+Npc
+TextUp
+Npc
+이쯤되면 도서관에서도
+까먹지 않았을까..?
+ChangePerson
+Player
+....
+이거..
+내가 가서 신고해야하나?

@@ -1,0 +1,7 @@
+Npc
+TextUp
+Npc
+햇빛도서관
+ChangePerson
+Player
+멋있는 이름의 도서관이네..

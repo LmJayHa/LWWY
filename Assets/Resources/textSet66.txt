@@ -1,0 +1,50 @@
+Player
+Animation
+0
+TextUp
+Player
+...
+에델의 상태가 점점 악화되어가고 있었던 건가...
+내가 그 자리에 있었다는 건
+카밀리아라는 사람도 이 사실을 들었던 거겠지..? 
+TextDown
+Animation
+1
+TextUp
+Nurse
+202번 환자분
+쪽지에요.
+TextDown
+Sound
+Effect
+Delay
+21
+2
+TextUp
+Nurse
+어쩜 벌써 그렇게 친해지셨어요? 
+ChangePerson
+Player
+네? 
+ChangePerson
+Nurse
+쪽지 열어보세요.
+TextDown
+Animation
+2
+TextUp
+Player
+쪽지? 
+TextDown
+ImageOn
+10
+TextUp
+에델이 보낸 건가..?
+오전부터 괜찮다니.. 일단 가볼까?
+TextDown
+ImageOff
+10
+TextUp
+Player
+조금 마음이 싱숭생숭하지만
+티는 내지 말자

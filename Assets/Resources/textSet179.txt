@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+향긋한 향기를 풍기는 꽃이다.
+아름다운 색이야..

@@ -1,0 +1,40 @@
+Player
+Animation
+18
+TextUp
+Player
+혹시 여기에 붓과 물감이 있을까요?
+ChangePerson
+Clerk
+어... 붓과 물감이요?
+여기 있네요 드릴까요?
+ChangePerson
+Player
+네 주시겠어요?
+TextDown
+Sound
+Effect
+Delay
+15
+1
+TextDown
+Sound
+Effect
+Delay
+15
+2
+Sound
+Effect
+Delay
+14
+2
+TextUp
+Player
+감사합니다!
+TextDown
+Animation
+17
+TextUp
+Player
+이제 다음은 
+병원에서 찾아봐야 할 것 같은데...

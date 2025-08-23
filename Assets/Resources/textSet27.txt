@@ -1,0 +1,32 @@
+Player
+Sound
+Effect
+Delay
+13
+4
+Animation
+4
+TextUp
+Player
+으음... 배가 고픈데
+하긴 사고가 난 이후로 아무것도 먹지 못했지..
+TextDown
+Animation
+5
+Camera
+0
+3
+TextUp
+Player
+마트에 좀 들러봐야겠군
+가서 내가 먹을 것도 사는 김에
+특실에 있는 분의 간식이라도 하나 사갈까..
+TextDown
+Camera
+Return
+3
+Animation
+6
+TextUp
+Player
+어서 가자

@@ -1,0 +1,22 @@
+Player
+Animation
+7
+TextUp
+Player
+도서관이...
+TextDown
+Camera
+2
+3
+TextUp
+Player
+저기인가?
+TextDown
+Camera
+Return
+3
+Animation
+0
+TextUp
+Player
+멀리도 있군...

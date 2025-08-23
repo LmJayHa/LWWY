@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+이건 내가 먹을 게 아니야

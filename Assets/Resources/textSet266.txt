@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+물뿌리개다.
+왜 이것만 여기에 있지?

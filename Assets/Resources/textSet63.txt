@@ -1,0 +1,152 @@
+Player
+Animation
+0
+TextUp
+Player
+여긴..
+병원이잖아?
+그리고
+더 이상 어린 모습이 아니군 
+그래도 이 안개를 보면
+또 어떤 기억 속 인건 확실한데.. 
+ChangePerson
+Doctor
+솔직히 말씀드리자면...
+점점 힘들어져가고 있습니다..
+TextDown
+Animation
+1
+TextUp
+Player
+진료실에 누가 있나?
+소리가 다 들리네..
+일단 밖에 있자 
+TextDown
+Animation
+2
+Camera
+0
+2
+TextUp
+Doctor
+점점 작은 햇빛을 받는 것도 힘들어지고 있어요..
+이대로 가면 머지않아 달빛만으로도 영향을 받게 될 겁니다.
+ChangePerson
+Clerk
+그런...
+에델은 그럼 앞으로 어떻게 되는 거죠? 
+TextDown
+Animation
+3
+TextUp
+Doctor
+지난번에 말씀드린 대로 이 문제는
+'뇌'와 깊은 관련이 있습니다...
+에델의 뇌 자체가 극도로 예민해서 햇빛에 민감한 반응을 보이고 있는데..
+이것이 심해질수록 작은 감기에도 몸이 견디지 못할 가능성도 있습니다..
+이대로라면 삶이 매우 힘들어질 것입니다.
+유감스럽지만 매우 이례적인 일이라 저희도..
+...
+TextDown
+Animation
+3
+TextUp
+Doctor
+뇌 이식수술 밖에는.. 
+해결법이 없군요.. 
+ChangePerson
+Heroin
+...그런.. 
+ChangePerson
+Clerk
+지난번에 얘기하시던 기증 얘기는.. 
+ChangePerson
+Doctor
+아시다시피 수술에 필요한 뇌 자체를 구하기도 매우 어렵고
+뇌를 구한다고 하더라도 비용이.. 천문학적으로 들 겁니다.
+TextDown
+Animation
+4
+TextUp
+Clerk
+...
+에델
+엄마가
+...
+미안하구나... 
+미안해 에델...
+너도 평범하고 싶었을 텐데.. 
+TextDown
+Camera
+Return
+2
+Animation
+5
+TextUp
+Player
+...
+에델의 상태가 더 안 좋아지고 있는 건가..
+....
+절망스러운 상황이야
+TextDown
+TextUp
+Heroin
+엄마 괜찮아!! 
+Sound
+Background
+11
+false
+TextDown
+Animation
+6
+Camera
+0
+2
+TextUp
+Heroin
+나도
+내 몸이 점점 안 좋아지고 있다는 건 
+어렴풋이 알고 있었어..
+하지만 아직 시간이 좀 있잖아!!
+TextDown
+Animation
+7
+TextUp
+Heroin
+그 사이 기증자가 나타날 수도 있고
+아니면 기적적으로 내가 나아지거나
+치료법을 찾을지도 모르지!
+TextDown
+Animation
+8
+TextUp
+Heroin
+그렇죠 의사선생님? 
+TextDown
+Animation
+3
+TextUp
+Doctor
+...
+네 그럴 수도 있죠.
+저희도 최선을 다해보겠습니다.
+TextDown
+Animation
+4
+TextUp
+Heroin
+그러니까 울지 마 엄마
+다 잘 될 거야!
+ChangePerson
+Clerk
+에델...
+TextDown
+Camera
+Return
+2
+Animation
+2
+TextUp
+Player
+...
+.....

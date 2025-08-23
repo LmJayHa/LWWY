@@ -1,0 +1,16 @@
+Player
+TextUp
+Npc
+오오 벌써 다 클리어한 거야?
+이야 대단한데?
+여기 별 모양 머리핀을 주도록 하지!
+ChangePerson
+Player
+감사합니다.
+TextDown
+Animation
+9
+TextUp
+Player
+지금쯤이면 가볼 만하지 않을까?
+특실로 가보자

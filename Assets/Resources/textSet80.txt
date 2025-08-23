@@ -1,0 +1,108 @@
+Player
+Animation
+11
+TextUp
+Heroin
+기다리고 있었어요!
+TextDown
+Animation
+12
+TextUp
+Heroin
+여기 이것 좀 보세요!
+TextDown
+Animation
+13
+Camera
+1
+2
+Animation
+17
+TextUp
+Heroin
+저번에 저한테 선물하신 꽃
+집에 있는 화분을 부탁드려서
+저렇게 장식해뒀어요.
+ChangePerson
+Player
+아 그렇군요.
+무언가 바뀌었다 했더니..
+소중하게 여겨주셔서 고마워요.
+TextDown
+Camera
+Return
+2
+Animation
+14
+TextUp
+Heroin
+햇빛을 못 받는 곳이라
+얼마 안 가겠지만.. 그래도 여기에 두고 싶었어요.
+여기가 제가 꽃을 선물받은 장소잖아요.
+TextDown
+Animation
+15
+TextUp
+Heroin
+얘기 들었어요.
+ChangePerson
+Player
+무슨 얘기를...
+ChangePerson
+Heroin
+곧 퇴원하신다면서요?
+지금까지 고마웠어요.
+정말이에요.
+ChangePerson
+Player
+...
+TextDown
+Animation
+16
+Sound
+Background
+9
+true
+TextUp
+Player
+에델... 이런 말 하는 거 너무 갑작스러울 수 있지만
+들어줘요.
+ChangePerson
+Heroin
+... 네
+ChangePerson
+Player
+사실 당신의 병을 처음 듣고..
+당신을 처음 만난 순간부터
+무언가가 느껴졌어요.
+당신을 돕고 싶다.. 당신 곁에 있어주고 싶다.
+힘이 되어주고 싶다..
+그리고 당신과 함께 있을 때면
+무언가 이상하리만치 마음이 편해졌던 것 같아요.
+TextDown
+Animation
+15
+TextUp
+Heroin
+...
+그런가요
+ChangePerson
+Player
+그래서 꼭 해주고 싶은 말이 있어요.
+아무리 힘들어도
+너무 걱정하지 말아요 에델
+퇴원하더라도 자주 찾아뵐게요.
+제가 여기에 없더라도 제가 준 저 꽃이 있잖아요.
+혼자가 아니었다는 걸 꼭 알아줘요.
+카밀리아뿐만이 아니라 저도 당신의 친구예요.
+그렇죠?
+TextDown
+Animation
+18
+TextUp
+Heroin
+네...
+고마워요.
+위로해 주고 격려해 줘서
+당신은 정말이지..
+정말 따뜻한 사람이에요.

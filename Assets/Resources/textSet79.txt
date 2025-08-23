@@ -1,0 +1,28 @@
+Player
+Animation
+10
+TextUp
+Doctor
+아 환자분
+이제 퇴원하셔도 됩니다.
+그동안 고생하셨습니다.
+내일 오후에 퇴원 절차를 밟아드릴게요.
+ChangePerson
+Player
+벌써 퇴원을 해도 괜찮을 건가요..?
+ChangePerson
+Doctor
+네 기억이 문제신거라면
+곧 돌아올 겁니다
+'틀림없이요.'
+ChangePerson
+Player
+그런...가요.
+TextDown
+Animation
+6
+TextUp
+Player
+'벌써.. 퇴원인가'
+'...'
+'에델에게 가볼까..'

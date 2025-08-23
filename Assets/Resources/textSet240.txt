@@ -1,0 +1,4 @@
+Player
+TextUp
+Doctor
+환자분 조금 이따 뵙겠습니다.

@@ -1,0 +1,74 @@
+Player
+Animation
+4
+TextUp
+Nurse
+오늘 오후에 퇴원을 하실 거예요.
+일단은 오후가 되기 전까지는
+자유롭게 행동하시고
+오후가 되기 전까지만 병원으로 와주세요.
+ChangePerson
+Player
+네 알겠습니다.
+ChangePerson
+Nurse
+그리고 오늘은 특실은 가시면 안 됩니다!
+TextDown
+Animation
+5
+TextUp
+Player
+으음.. 왜죠?
+마지막 인사라도 드리려 했는데..
+ChangePerson
+Nurse
+그... 환자분이
+어제밤부터 갑자기 증상이 악화되는 바람에..
+더욱 주의 깊게 지켜보자는 얘기가 나와서..
+이제 앞으로 외부인이 특실로 갈 수 있는 경우는
+없을 것 같아요.. 가족을 제외하고는요..
+ChangePerson
+Player
+그런...
+상황이 많이 안 좋나요?
+ChangePerson
+Nurse
+네.. 
+돌아가시는 길에 마음이 좀 무겁겠네요..
+TextDown
+Animation
+6
+TextUp
+Player
+...
+TextDown
+Animation
+7
+TextUp
+Player
+혹시 딱 하나만 부탁을 들어주실 수 있나요?
+ChangePerson
+Nurse
+예..? 
+어떤..
+ChangePerson
+Player
+제가 금방 다녀올 테니
+사진 한 장만 에델에게 건네주세요.
+에델에게 엄청 소중한 거예요.
+TextDown
+Animation
+8
+TextUp
+Nurse
+...
+알겠어요.
+여기서 기다리고 있을게요.
+TextDown
+Animation
+6
+TextUp
+Player
+'어서 가자'
+'분명 내가 본 기억이 정확하다면'
+'사진은 고목나무숲 어딘가에 분명히 있을 거야'

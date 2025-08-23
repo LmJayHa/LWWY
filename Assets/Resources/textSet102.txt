@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+간호사 일정표다.
+의외로 널널한 듯 하다.

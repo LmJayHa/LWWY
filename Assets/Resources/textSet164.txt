@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+빨간색의 약통이다.
+함부로 건드리면 안 될 것 같다.

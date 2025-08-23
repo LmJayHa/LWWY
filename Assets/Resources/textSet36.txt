@@ -1,0 +1,26 @@
+Player
+Sound
+Effect
+NoDelay
+4
+Animation
+1
+TextUp
+Player
+...!!!!
+저번과 같은 소리에
+TextDown
+Camera
+0
+3
+TextUp
+Player
+저번과 같은 빛이 흘러나오고 있어...
+TextDown
+Camera
+Return
+3
+TextUp
+Player
+역시 저번에 그건 잘못 본 게 아니었던 건가..?
+가봐야겠어

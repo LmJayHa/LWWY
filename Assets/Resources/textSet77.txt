@@ -1,0 +1,142 @@
+Player
+TextUp
+Player
+아 저기...
+ChangePerson
+Alex
+...
+ChangePerson
+Player
+...
+저.. 알렉스 씨?
+ChangePerson
+Alex
+옆에 벤치에 앉게
+ChangePerson
+Player
+아.. 네
+TextDown
+Animation
+2
+TextUp
+Player
+저 지난번에는
+정말 감사했습니다
+덕분에 꽃을 잘 선물했어요.
+ChangePerson
+Alex
+그렇구나...
+근데 왜 그리 표정이 어두운 거야?
+TextDown
+Animation
+3
+TextUp
+Player
+...
+마음이 많이 복잡해져서요.
+ChangePerson
+Alex
+뭐야 고백에 실패한 거야?
+TextDown
+Animation
+4
+TextUp
+Player
+아뇨아뇨! 그런거 라기보다..
+TextDown
+Animation
+3
+TextUp
+Player
+점점 나빠지고 있는 상황을
+그저 지켜보고 있자니
+기분이 별로 좋지 않아서요...
+TextDown
+Camera
+2
+2
+TextUp
+Alex
+자네한테
+소중한 사람인가?
+ChangePerson
+Player
+...
+TextDown
+Animation
+4
+TextUp
+Player
+네.. 제가 기억을 모두 잃고
+처음으로 친해진 사람이에요.
+하지만 그런 것보다도
+무언가 그 사람이랑 있으면 마음이 편해지고
+그냥 밝아지는 것 같아요.
+ChangePerson
+Alex
+그렇구먼...
+뭐 솔직히 자네가 
+무언가 할 수 있는 상황은 아닌 거지?
+TextDown
+Animation
+3
+TextUp
+Player
+네..
+ChangePerson
+Alex
+자네 혹시 내가 꽃을 좋아하는 이유를 아나?
+TextDown
+Animation
+4
+TextUp
+Player
+...
+ChangePerson
+Alex
+꽃은 피어있을 때는 언제나 한결같이 아름답기 때문이야
+각자 자신만의 개성을 뽐내면서
+그런 꽃을 보면 마누라랑 싸워서 기분이 안 좋다가도
+놀이마당에서 청기백기를 틀려서 우울하다가도
+꽃을 보면
+기분이 좋아지곤 해
+TextDown
+Animation
+3
+TextUp
+Alex
+막상 생각해 보면 꽃은 나한테 해준 게 아무것도 없어
+그저 아름답게 피어있을 뿐이지
+하지만 그 꽃을 보면서 나는 마음을 정화해
+TextDown
+Camera
+Return
+2
+TextUp
+Alex
+자네가 진짜 그 사람을 생각해서
+딱히 무언가를 하지 않아도 괜찮아
+그저 주위에서 밝은 사람으로 남아있는 것만으로
+그 사람한테는 힘이 될 거야
+ChangePerson
+Player
+...
+'맞아.. 에델이 힘을 낼 수 있었던 것은'
+'카밀리아가 딱히 무언가를'
+'에델에게 해주어서가 아니야'
+'그저 힘들 때나 슬플 때나 곁에 있어줬기 때문이지...'
+'나도 에델이 옆에 있는 것만으로'
+'기분이 좋아지곤 했잖아?'
+TextDown
+Animation
+5
+TextUp
+Player
+감사합니다 도움이 되었어요.
+이만 병원으로 돌아가 보겠습니다.
+TextDown
+Animation
+6
+TextUp
+Player
+'병원으로 돌아가 볼까?'

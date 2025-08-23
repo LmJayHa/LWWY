@@ -1,0 +1,15 @@
+Player
+Sound
+Effect
+NoDelay
+11
+ImageOn
+4
+TextUp
+Player
+<나비와 문방구의 기적>
+이건 일본에서 쓰인 소설인가..?
+고양이랑 세명의 경찰이 함께 미래를 보는 책이라 적혀있군..
+표지가 맘에 들어.
+ImageOff
+4

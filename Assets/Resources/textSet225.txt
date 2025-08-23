@@ -1,0 +1,4 @@
+Player
+TextUp
+Alex
+꽃을 전해주러 가게나.

@@ -1,0 +1,8 @@
+Npc
+TextUp
+Npc
+너무 피곤한데 그냥 내일 반납할까..?
+ChangePerson
+Player
+...
+이사람 반납 할 수 있으려나..

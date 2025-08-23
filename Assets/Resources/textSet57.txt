@@ -1,0 +1,25 @@
+Player
+Animation
+4
+TextUp
+Player
+저 혹시 알렉스 씨 계신가요?
+TextDown
+Animation
+5
+TextUp
+Player
+아무도 안 계시나...
+ChangePerson
+Alex
+누구인가?
+ChangePerson
+Player
+아 저 혹시 오늘 아침에 동백꽃을 사 가셨나요?
+제가 그 동백꽃이 필요해서 그런데
+저한테 팔아주실 수는 없을까요..?
+ChangePerson
+Alex
+...
+...
+...일단 들어오게

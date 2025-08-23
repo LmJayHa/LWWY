@@ -1,0 +1,8 @@
+Npc
+TextUp
+Npc
+내일은 진짜 반납해야겠다..
+ChangePerson
+Player
+...
+또 반납을 안한건가..?

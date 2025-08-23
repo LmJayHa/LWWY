@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+잠겨있다..

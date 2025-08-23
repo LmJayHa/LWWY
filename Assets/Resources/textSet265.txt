@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+비료포대이다.
+이거면 식물들이 쑥쑥 자라겠지?

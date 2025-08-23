@@ -1,0 +1,38 @@
+Player
+Animation
+1
+Camera
+0
+3
+TextUp
+Player
+뭐지..
+특실에서 빛이 흘러나오는데...
+그 환자가 도착한 건가?
+TextDown
+Camera
+Return
+3
+TextUp
+Player
+그런데 저 빛은 뭐지..? 
+좀.. 어색한데..
+TextDown
+Animation
+2
+TextUp
+Player
+단순한 형광등 빛도 아닌 것 같고..
+TextDown
+Sound
+Effect
+NoDelay
+4
+Animation
+3
+TextUp
+Player
+...!!?!
+방금 이상한 소리는 또 뭐지?
+.....
+한번 가봐야 하나...?

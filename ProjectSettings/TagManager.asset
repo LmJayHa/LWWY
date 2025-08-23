@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameEventManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 3833082531
+    locked: 0
+  - name: 2
+    uniqueID: 1791950107
+    locked: 0
+  - name: 3
+    uniqueID: 2186618551
+    locked: 0
+  - name: 4
+    uniqueID: 1943294325
+    locked: 0
+  - name: 5
+    uniqueID: 85046129
+    locked: 0
+  - name: 6
+    uniqueID: 4105605565
+    locked: 0

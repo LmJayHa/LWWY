@@ -1,0 +1,435 @@
+Player
+Sound
+Effect
+NoDelay
+21
+Animation
+10
+TextUp
+Player
+좋아 사진을 찾았어...!
+다행이야 그래도 발견해 내서
+그런데.. 이 사진..
+어딘가 이상한데..
+TextDown
+ImageOn
+16
+TextUp
+Player
+카밀리아는 병실복이아니라
+사복을 입고 있고..
+그리고 그 옆에 특실복을 입고 있는 사람은
+...
+이 사람은...
+...
+TextDown
+Sound
+Background
+11
+false
+TextUp
+Player
+'나'..잖아?
+이.. 이게 어떻게 된 거지?
+분명 그때 본 사진은 
+에델과 카밀리아일 텐데
+그것보다 이건 언제 찍었던 사진인 거지..?
+ImageOff
+16
+ChangePerson
+Heroin
+역시 여기로 왔구나
+TextDown
+Animation
+11
+Camera
+6
+2
+Animation
+12
+TextUp
+Player
+에델..?
+어떻게 여길
+그것보다 지금은 낮일 텐데..
+분명 상태가 안 좋아지고 있다고..
+TextDown
+Animation
+13
+TextUp
+Heroin
+분명 마지막 기억을 본 후라면
+여길 올 줄 알았어
+그나저나
+그 사진을 보고도
+아직 기억이 안 돌아왔나 보네?
+TextDown
+Animation
+14
+TextUp
+Heroin
+'에델'
+TextDown
+Sound
+StopBackground
+TextUp
+Player
+'에델'...?
+그건 네 이름이잖아..
+내 이름은..
+내...
+...
+'설마...'
+TextDown
+Sound
+Background
+12
+false
+Animation
+15
+TextUp
+Player
+에델은..
+내 이름이었지
+TextDown
+Animation
+16
+TextUp
+Player
+그렇지?
+'카밀리아'
+ChangePerson
+Heroin
+이제 다 기억이 났나 보네 
+ChangePerson
+Player
+이제 다 기억이 났어
+내 이름
+내 과거
+그리고 내 병까지도
+여긴 어디야 카밀리아? 
+TextDown
+Animation
+17
+TextUp
+Heroin
+우리의 꿈속이야.
+아니 정확히 말하면 의식 속이지.
+지금까지 매일 밤 보던 '기억'들 생각나? 
+ChangePerson
+Player
+그래.. 그건..
+TextDown
+Animation
+18
+TextUp
+Heroin
+맞아 그건 전부 내 기억들이야.
+내가 평생 잊지 않을 기억들..
+그 속엔 항상 네가 함께였어 에델 
+ChangePerson
+Player
+설마.. 나한테 뇌를 기증한 거야? 
+ChangePerson
+Heroin
+... 
+ChangePerson
+Player
+왜그랬어! 
+그럴 필요 없었어..
+나한테는 네가 전부였는데..
+ChangePerson
+Heroin
+에델...
+...
+TextDown
+Animation
+17
+Sound
+StopBackground
+TextUp
+Heroin
+...
+그날..
+네가 본 것처럼
+내가 우리의 사진을 들고
+처음으로 혼자 고목나무에 가본 날 
+TextDown
+Sound
+Background
+0
+true
+Animation
+19
+TextUp
+Heroin
+"네가 본 대로"
+"나는 그날 사진을 잃어버리고"
+"사진을 찾아 그곳을 이리저리 뒤졌어."
+"날은 어두워지고 비도 오고 있었지."
+TextDown
+Animation
+20
+TextUp
+Heroin
+"그렇게 한참을 찾다가 결국"
+"시간이 너무 지나버리고"
+"나는 사진을 찾지 못했고 지친 상태로"
+"집에 돌아가고 있었어."
+"..."
+"그때..."
+TextDown
+Sound
+Effect
+Delay
+0
+2
+ImageOn
+1
+TextUp
+Heroin
+"왜 그 차량을 못 봤을까?"
+"거세게 내린 비 때문이었을까"
+"아니면 허망함 때문에 주위를 신경 쓰지 못한 걸까"
+TextDown
+ImageOff
+1
+TextUp
+Heroin
+"눈을 떴을 땐..." 
+"수술실이었어"
+TextDown
+Sound
+Background
+14
+true
+Animation
+21
+TextUp
+Nurse
+원장님! 환자분이 깨어났어요!
+ChangePerson
+Doctor
+카밀리아!
+원장님이야 내말 들리니?
+ChangePerson
+Heroin
+의사... 선생..님 
+저...
+어떻게... 된 거죠..?
+TextDown
+Animation
+22
+TextUp
+Nurse
+원장님.. 맥박이..
+ChangePerson
+Doctor
+말을 아끼거라 카밀리아
+지금 최선의 조치를 취하고 있으니..
+걱정하지 말거라
+TextDown
+Animation
+23
+TextUp
+Heroin
+"원장님께선 괜찮다고 하셨지만"
+"사실 그때 이미 알았어"
+'아.. 이제.. 가망이 없구나'
+"그때..."
+TextDown
+Animation
+24
+TextUp
+Heroin
+"그때 에델 네가 생각났어"
+"그냥.. 왜인진 모르겠어"
+"그냥 보고 싶었거든"
+"그러다가 문뜩 생각나더라"
+"늘 가지고 다녔지만"
+"차마 꺼낼 수 없었던 게 말이야"'
+TextDown
+Animation
+23
+TextUp
+Heroin
+서... 선생님
+선생님..  주머니..
+ChangePerson
+Doctor
+듣고 있다 카밀리아
+ChangePerson
+Heroin
+제 오른쪽 주머니에...
+기증서..가 있...어요.
+혹시..  제가 잘못되면
+꼭.. 부탁.. 드릴.. 
+TextDown
+Sound
+Background
+15
+false
+Animation
+25
+Sound
+Background
+2
+true
+TextUp
+Heroin
+눈을 떴을 땐 아무도 없었어
+그래.. 
+네가 처음 내 기억에 들어왔을 때처럼
+TextDown
+Animation
+26
+TextUp
+Heroin
+그제서야 실감이 나더라
+나는 정말로 죽었고..
+마지막에 전달한 기증서로 인해
+지금 내 뇌에
+너라는 존재가 들어오고 있다는 사실이 말이야
+TextDown
+Animation
+27
+TextUp
+Heroin
+그동안
+네가 내 기억을 본 것처럼
+나도 네 기억을 보기 시작했어
+마치 내 기억인 것처럼 말이야..
+그리고..
+정말 얼마나 펑펑 운 지 몰라.
+...
+그런데 문뜩 그런 생각이 들더라.
+네가 만약 병에 걸리지 않았다 해도
+내가 만약 병에 걸린 사람이었다 해도
+우리가 서로 뒤바뀐 처지에 있었더라도
+너는 나를 아껴줬을까?
+따스하게 대해줬을까?
+TextDown
+Animation
+28
+TextUp
+Heroin
+너를 보는 마지막 기회인 이곳에서
+확인해 보고 싶었어 
+TextDown
+Animation
+29
+Sound
+Background
+4
+true
+TextUp
+Heroin
+그래서 이곳을 만든 거야.
+이름도 네 이름으로 바꾸고
+옷도 특실복을 입었지
+물론
+내기억에 기반해서 만든거지만.. 
+TextDown
+Animation
+30
+TextUp
+Player
+카밀리아.. 
+ChangePerson
+Heroin
+네가 깨어나고 너를 처음 봤을 때
+사실 너무 반가웠었어
+네가 나를 위해 선물들을 해줬을 때도
+너무 고마웠고
+그리고...
+TextDown
+Sound
+Background
+13
+false
+TextUp
+Heroin
+그리고 내가 보여준 노을을
+네가 다시 나한테 보여줄 때도...
+TextDown
+Animation
+31
+TextUp
+Heroin
+나 사실 널 정말 좋아했었나 봐
+그래서 네가 어떤 상황에도 날 아껴주고
+보듬어주고 진심으로 다가와 줄 걸 알았을 때
+후련하게 다 털어버릴 수 있을 줄 알았어
+역시 내가 사람 하나 참 잘 봤어!
+하고 말이야
+그런데..
+TextDown
+Animation
+32
+TextUp
+Heroin
+정말 이런 마음 들고 싶지 않았는데..
+이곳에서 너랑 있었던 시간들이 행복했던 만큼
+야속하게도
+TextDown
+Animation
+33
+TextUp
+Heroin
+다시.. 살고 싶더라
+살아서 너랑 같이
+이 행복했던 시간을 
+더 오래 보내고 싶더라 
+TextDown
+Animation
+34
+TextUp
+Player
+...
+카밀리아..
+가지 마 카밀리아
+네가 없으면 나는..
+다 무슨 소용이 있겠어 
+ChangePerson
+Heroin
+소용이 없다니 에델
+네가 노을을 보는 건
+너의 소원이기도 했지만
+내 소원이기도 했어
+그야 넌 내가 좋아하는
+아니..
+TextDown
+Animation
+31
+TextUp
+Heroin
+내가 사랑하는 사람인 걸?
+그러니 에델 곧 꿈에서 깨어나면
+꼭 노을을 보러 여기로 와줘 
+TextDown
+Camera
+Return
+2
+Animation
+35
+TextUp
+Player
+네 기억을 보고 나도 알았어
+너가 얼마나 나를 위해줬는지
+나를 어떻게 생각해 주고 있었는지
+너를 잊지 못할 거야 평생
+고마워 그리고
+사랑해 카밀리아 
+ChangePerson
+Heroin
+...
+나도...
+나도 정말
+사랑해.. 
+에델...
+TextDown
+Animation
+36
+TextUp
+Player
+카밀리아..

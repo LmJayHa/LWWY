@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+먼저 특실로 가자

@@ -1,0 +1,22 @@
+Nurse
+TextUp
+Nurse
+아 환자분!
+TextDown
+Camera
+1
+3
+Animation
+7
+TextUp
+Nurse
+약이 다 지어졌어요.
+어서 와서 받으세요!
+TextDown
+Camera
+Return
+3
+TextUp
+Player
+벌써 다 지어진 건가..?
+생각보다 빨리 지어졌는걸?

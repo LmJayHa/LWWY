@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+엄청난 양의 약들이다.
+이걸 다 어떻게 구분하는 걸까?

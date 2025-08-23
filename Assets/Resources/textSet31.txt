@@ -1,0 +1,29 @@
+Clerk
+TextUp
+Clerk
+계산은 이거 두 개야?
+ChangePerson
+Player
+네
+Sound
+Effect
+Delay
+15
+1
+Sound
+Effect
+Delay
+15
+1
+Sound
+Effect
+Delay
+16
+1
+ChangePerson
+Clerk
+계산 다 되었어!
+ChangePerson
+Player
+감사합니다.
+'이제 특실로 한번 가볼까?'

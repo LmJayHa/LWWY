@@ -1,0 +1,7 @@
+Player
+TextUp
+Nurse
+원장님께선 1층 진료실에 계세요. 어서 가보세요.
+ChangePerson
+Player
+네 감사합니다.

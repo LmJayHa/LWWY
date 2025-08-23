@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+환자들의 의무기록이다.
+함부로 보지 말도록 하자.

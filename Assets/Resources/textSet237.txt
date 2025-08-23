@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+에델이 기다리고 있을텐데..

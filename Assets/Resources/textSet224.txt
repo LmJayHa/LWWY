@@ -1,0 +1,4 @@
+Player
+TextUp
+Alex
+어여 가보라고

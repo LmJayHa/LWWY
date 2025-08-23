@@ -1,0 +1,18 @@
+Player
+Animation
+0
+TextUp
+Player
+...
+카밀리아
+거기서 사진을 잃어버린 건가
+그런 숲속에선 다시 찾기 힘들 텐데...
+TextDown
+Animation
+1
+TextUp
+Player
+뭐... 그것보다
+오늘이 드디어 퇴원 날인가..?
+퇴원하기 전에..
+마지막 인사라도 하러 갈까?

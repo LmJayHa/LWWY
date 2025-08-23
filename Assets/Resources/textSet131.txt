@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+먹음직스러운 감자이다.

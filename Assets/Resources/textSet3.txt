@@ -1,0 +1,44 @@
+Doctor
+Animation
+3
+TextUp
+Doctor
+아 환자분 깨어나셨군요.
+불편하신 곳은 없으신가요?
+ChangePerson
+Player
+조금 어지러운 것 빼고는
+딱히 불편한 곳은 없는 것 같아요.
+ChangePerson
+Doctor
+다행이군요.
+간호사에게 전해 들은 바로는 
+기억이 온전치 못하다고 하시던데
+사고의 충격으로 인한 
+단기 기억상실증일 것으로 판단됩니다.
+시간이 지나면 회복되는 경우가 대부분이니 
+걱정하지 않으셔도 됩니다.
+ChangePerson
+Player
+네.. 감사합니다.
+ChangePerson
+Doctor
+일단은...
+TextDown
+Animation
+4
+TextUp
+Doctor
+병원에 입원하시고 안정을 취하시면서 기다려보죠.
+안정을 취하다 보면 기억이 돌아오실 수도 있습니다.
+ChangePerson
+Player
+네.. 그렇게 하겠습니다.
+ChangePerson
+Doctor
+간호사를 통해 금방 약을 전달해 드리도록 하겠습니다.
+오늘 하루는 외출을 삼가주시고, 약을 꼭 드셔주세요.
+내일 아침에 진료실에서 또 뵙죠. 그 후에 외출을 허가해 드리겠습니다.
+ChangePerson
+Player
+네 알겠습니다.

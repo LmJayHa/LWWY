@@ -1,0 +1,7 @@
+Player
+Animation
+0
+TextUp
+Player
+마지막 밤인가..
+그래도 일단 가봐야겠지

@@ -1,0 +1,6 @@
+Player
+TextUp
+Player
+음...
+여긴 뭐하는 곳이지?
+굳게 잠겨있다.

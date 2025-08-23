@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+수술실 베드다.
+나도 이곳에 누워있었겠지?

@@ -1,0 +1,47 @@
+Player
+TextUp
+Player
+...
+그런데.. 아직 안면식도 없는데 이렇게 갑자기 찾아가도 되는 걸까?
+TextDown
+Animation
+7
+TextUp
+Player
+그래 어차피 인사 정도인데 괜찮겠지
+TextDown
+Animation
+8
+Sound
+Effect
+Delay
+7
+1
+Sound
+Effect
+Delay
+7
+1
+Animation
+6
+TextUp
+Player
+아무도 없나?
+TextDown
+Sound
+Effect
+Delay
+8
+2
+Animation
+9
+TextUp
+Player
+...? 
+문이 열려있네
+TextDown
+Animation
+7
+TextUp
+Player
+들어가 볼까...?

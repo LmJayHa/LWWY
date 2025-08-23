@@ -1,0 +1,35 @@
+Player
+Animation
+9
+TextUp
+Player
+뭐야... 
+정말 아까랑은 완전히 딴판이잖아?
+이게... 어떻게 된 거지?
+ChangePerson
+Nurse
+환자분께서 약기운 때문에 많이 피곤하셔서 잘못 보셨나 보네요..
+어서 가서 쉬는게 좋겠어요.
+저도 함부로 특실을 열어드린 거 엄청 곤란하거든요.
+ChangePerson
+Player
+...
+죄송합니다.
+ChangePerson
+Nurse
+괜찮아요.
+대신 앞으론 주의해 주세요.
+실례할게요.
+TextDown
+Animation
+10
+TextUp
+Nurse
+비켜주시겠어요?
+TextDown
+Animation
+11
+TextUp
+Player
+이상하네.. 진짜 헛것이 보인 건가?
+그냥 빨리 잠이나 자야겠어.

@@ -1,0 +1,64 @@
+Player
+TextUp
+Player
+아무도 없네
+TextDown
+Animation
+10
+TextUp
+Player
+.... 그런데 여기 왠지
+좀 익숙한 것 같네 어디서 본 적이 있었나?
+TextDown
+Animation
+11
+TextUp
+Player
+특실에 있는 분은 이렇게 햇빛 하나 들지 않는 곳에서
+대부분을 갇혀 생활하는 건가?
+... 안쓰럽군
+TextDown
+Camera
+1
+2
+Animation
+12
+TextUp
+Heroin
+...
+저기....
+TextDown
+Animation
+13
+TextUp
+Player
+어...
+그게....
+...
+ChangePerson
+Heroin
+...
+ChangePerson
+Player
+죄...죄송합니다..!
+TextDown
+Animation
+14
+Camera
+Return
+3
+Animation
+15
+TextUp
+Player
+후우...
+엄청 놀라신 것 같던데...
+오늘은 일단 들어가지 말고
+내일이라도 사과해야겠는걸
+...
+...
+일단 오늘은 시간도 늦었는데 그만 잘까...
+Sound
+Background
+1
+true

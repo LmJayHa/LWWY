@@ -1,0 +1,6 @@
+Player
+Animation
+0
+TextUp
+Player
+이번에는 퍼즐이 좀 복잡해 보이는데...

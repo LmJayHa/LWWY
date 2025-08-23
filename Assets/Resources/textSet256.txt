@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+다 녹아버렸네...

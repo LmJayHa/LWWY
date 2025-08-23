@@ -1,0 +1,70 @@
+Player
+Animation
+1
+Camera
+0
+2
+TextUp
+Player
+좋아..!
+꽃이 자라났어!
+TextDown
+Camera
+Return
+2
+Animation
+2
+TextUp
+Player
+여기는...
+새소리가 나는 걸 보니 아침인가..
+...
+TextDown
+Animation
+3
+TextUp
+Player
+언제 봐도 정말 아름다운 장소야
+이곳은...
+TextDown
+Camera
+1
+2
+TextUp
+Player
+오른손에 무언가 쥐어져있는데
+'사진'...인가?
+TextDown
+ImageOn
+14
+TextUp
+Player
+병실복을 입고 있는 것은 에델이고...
+그 옆에 사람은..
+얼굴이 안 보이는데...
+아마 이 사람이 카밀리아인가?
+뒷면에 무언가 적혀있어
+ImageOn
+15
+ImageOff
+14
+'이곳은 낮에도 정말 아름다워 에델'
+...
+카밀리아가 쓴 글인가?
+ImageOff
+15
+Camera
+Return
+2
+Sound
+Effect
+Delay
+19
+2
+Animation
+4
+TextUp
+Player
+이런..!
+바람에 날아가 버렸어..
+어서 찾아야....

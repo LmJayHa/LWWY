@@ -1,0 +1,23 @@
+Player
+TextUp
+Nurse
+아 환자분!
+TextDown
+Camera
+0
+2
+Animation
+2
+TextUp
+Nurse
+환자분!
+일어나셨으면 여기 와보세요!
+TextDown
+Camera
+Return
+2
+Animation
+3
+TextUp
+Player
+...

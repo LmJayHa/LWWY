@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+음...
+일단 들어가지말자.

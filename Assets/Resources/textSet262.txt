@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+이건 어디다 쓰는 물건이지?

@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+커다란 욕조이다.
+목욕한지 오래됐네..

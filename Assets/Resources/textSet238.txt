@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+굳이 다시 나갈 필요가 있을까..?

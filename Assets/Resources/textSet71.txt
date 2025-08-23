@@ -1,0 +1,126 @@
+Player
+Animation
+23
+TextUp
+Player
+음...
+어디 가신 거지?
+일단 준비해야겠군
+TextDown
+Sound
+Effect
+Delay
+7
+1
+Animation
+24
+TextUp
+Nurse
+202번 환자분?
+커튼 파티션 남는 걸 가져왔어요.
+ChangePerson
+Player
+감사합니다.
+TextDown
+Animation
+25
+TextUp
+Player
+오셨군요.
+마침 준비를 다 마친 참이었어요.
+ChangePerson
+Heroin
+급하게 진료를 받았거든요.
+의사선생님께서 하실 말씀이 있다고 하셔서요.
+이건... 다 뭔가요?
+ChangePerson
+Player
+일단 여기 앉아 보시겠어요?
+TextDown
+Animation
+26
+TextUp
+Player
+먼저 불을 끄고...
+TextDown
+Animation
+27
+TextUp
+Player
+이 전구를 키면...
+TextDown
+Animation
+28
+Camera
+2
+2
+TextUp
+Player
+어떠신가요..?
+ChangePerson
+Heroin
+...
+저..
+여기 와서 같이 앉아주세요.
+TextDown
+Animation
+29
+ImageOn
+12
+TextUp
+Heroin
+진짜... 노을이네요.
+사진으로 보는 것 보다
+훨씬 멋있는것 같아요.
+ChangePerson
+Player
+사실 당신과 만나고
+예전에 있었던 일이 문득 하나 떠올랐어요.
+ChangePerson
+Heroin
+기억이 다 돌아오신 거예요?
+ChangePerson
+Player
+아뇨.. 아직도 기억나는 것은 거의 없지만
+뭔가 예전 기억에
+저에게 가장 소중했던 사람이 이 노을을 보여줬던
+작은 기억이 떠올랐어요.
+그때 제가 본 이 노을은 정말
+그 무엇보다 아름다웠고 멋졌거든요.
+그래서 당신에게도 보여주고 싶었어요.
+그 사람이 저에게 멋진 노을을 선물해 준 것처럼
+저도 당신에게 이 노을을 선물해 주고 싶었어요.
+ChangePerson
+Heroin
+...
+정말...
+너무 아름다워요.
+이 노을은 제가 본 사진들과는
+비교할 수 없을 정도로
+가장 멋지고
+아름다워요.
+ChangePerson
+Player
+마음에 드셔서 다행이네요.
+ChangePerson
+Heroin
+그 사람..
+당신에게 얼마나 소중한 사람이었던 것 같아요?
+ChangePerson
+Player
+잘은 기억나지 않지만..
+그 사람은 아마 제 인생에 있어서
+가장 중요하고 가장 소중했던
+사람이었던 것 같아요.
+마치 당신이 카밀리아를 대했을 때처럼요.
+ChangePerson
+Heroin
+그런가요.
+정말 소중한 사람이었나 보네요.
+당신에게 그 사람은...
+TextDown
+ImageOff
+12
+Camera
+Return
+2

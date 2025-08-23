@@ -1,0 +1,84 @@
+Player
+Animation
+6
+TextUp
+Player
+저..저기
+ChangePerson
+Alex
+...
+ChangePerson
+Player
+...
+'왜그러시지..?'
+TextDown
+Animation
+7
+TextUp
+Alex
+그러니까 자네 말은
+내가 산 동백꽃을
+다시 사 가고 싶다 이 말이지?
+ChangePerson
+Player
+네..
+ChangePerson
+Alex
+이유는...?
+TextDown
+Animation
+8
+TextUp
+Player
+그.. 선물인데
+ChangePerson
+Alex
+여자친구?
+ChangePerson
+Player
+아뇨아뇨! 그런 사이는 아닙니다.
+ChangePerson
+Alex
+뭐야.. 그러면..
+네가 그 아이를 좋아하는 모양이구만?
+ChangePerson
+Player
+아뇨... 그런 사이라기보다
+그 아이가 그동안 많이 아파하고
+많이 외로워한 것을 어쩌다 알게 돼서
+제가 조금이라도 힘이 되어주고 싶어서요.
+ChangePerson
+Alex
+안타까운 이야기이지만
+나도 아내에게 주려고 산 꽃이어서
+이걸 공짜로 주는 건 조금 곤란해..
+ChangePerson
+Player
+아 값이라면..
+ChangePerson
+Alex
+아니 아니
+돈은 됐고
+다른 걸 얻어다 줄 수 있겠는가?
+그러면 내가 동백꽃이랑 바꿔주지
+ChangePerson
+Player
+무엇을... 말씀하시는 거죠?
+ChangePerson
+Alex
+'에델바이스'라는 꽃이야
+엄청 하얀 꽃인데 우리 마을 꽃집에서는 안 팔아서
+서쪽 숲으로 가서 따오는 방법밖엔 없어
+하지만 내 몸으론 에델바이스를 가져오기는 힘들다고
+ChangePerson
+Player
+그렇다면 에델바이스라는 꽃만 따오면 된다는 건가요?
+ChangePerson
+Alex
+그런 거지
+TextDown
+Animation
+10
+TextUp
+Player
+'일단.. 에델바이스라는 꽃을 따러 가볼까?'

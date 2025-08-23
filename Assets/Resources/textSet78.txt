@@ -1,0 +1,25 @@
+Player
+Animation
+7
+TextUp
+Nurse
+아 환자분
+TextDown
+Animation
+8
+TextUp
+Nurse
+원장님께서 내일부터는
+퇴원해도 될 것 같다고 하셨어요.
+원장님께 가보시겠어요?
+기다리고 계실거에요.
+ChangePerson
+Player
+아 네 알겠습니다.
+TextDown
+Animation
+9
+TextUp
+Player
+흐음...
+이제 퇴원 날인건가..

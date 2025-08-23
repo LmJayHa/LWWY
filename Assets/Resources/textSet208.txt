@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+먼저 원장에게 가는게 좋겠지.

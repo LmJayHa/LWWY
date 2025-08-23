@@ -1,0 +1,8 @@
+Nurse
+TextUp
+Nurse
+환자분! 여기는 수술실이에요.
+함부로 들어오시면 안됩니다.
+ChangePerson
+Player
+아.. 죄송합니다.

@@ -1,0 +1,33 @@
+Player
+Animation
+16
+TextUp
+Player
+저 혹시...
+여기 붉은색 램프가 있을까요?
+ChangePerson
+Clerk
+아 네! 구매하시게요?
+ChangePerson
+Player
+네 하나만 주시겠어요?
+TextDown
+Sound
+Effect
+Delay
+15
+2
+Sound
+Effect
+Delay
+14
+2
+TextUp
+Player
+감사합니다!
+TextDown
+Animation
+17
+TextUp
+Player
+이제 다음은 마트인가..?

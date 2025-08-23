@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+이번에는...
+두개의 문이 있네

@@ -1,0 +1,11 @@
+Player
+Textup
+Player
+쪽지가 있다.
+ChangePerson
+Npc
+왜 반납 안하셨어요..
+ChangePerson
+Player
+...
+꼼꼼하지 못하군..

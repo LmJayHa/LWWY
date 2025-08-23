@@ -1,0 +1,7 @@
+Player
+Animation
+0
+TextUp
+Player
+...
+... 또 새벽에 잠을 깬 건가

@@ -1,0 +1,59 @@
+Player
+Animation
+13
+TextUp
+Heroin
+오셨네요?
+마침 진료가 다 끝난 참이었어요.
+ChangePerson
+Player
+다시 놀러 오겠다고 했잖아요.
+몸 상태는 좀 어떠세요?
+TextDown
+Animation
+14
+TextUp
+Heroin
+낮만 아니면 평범한 사람이랑 다를 게 없어요!
+이렇게나 팔팔한걸요?
+ChangePerson
+Player
+그거 다행이네요
+아 혹시.. 
+꽃... 좋아하시나요?
+ChangePerson
+Heroin
+꽃... 이요?
+TextDown
+Animation
+15
+Sound
+Effect
+Delay
+18
+2
+TextUp
+Player
+머리핀과 같은 꽃이에요.
+물론 금방 시들지도 모르지만
+병실에 이 꽃을 두면 좋을 것 같아서요..
+ChangePerson
+Heroin
+동백꽃이네요!
+정말 고마워요.
+이렇게까지 신경 써주셔서.
+TextDown
+Animation
+14
+TextUp
+Heroin
+저.. 이런 부탁해서 죄송한데 혹시 이따 밤에 시간 되시면...
+저랑 같이 밖에 나가실래요? 같이 가보고 싶은 곳이 있어요.
+정말 오랫동안 가지 못했던 장소거든요.
+ChangePerson
+Player
+네...?
+그렇지만.. 
+ChangePerson
+Heroin
+이따 저녁에 몰래 꼭 나와주세요 알겠죠?

@@ -1,0 +1,51 @@
+Player
+Animation
+19
+TextUp
+Player
+간호사님 저기...
+TextDown
+Animation
+20
+TextUp
+Nurse
+어머 여긴 오시면 안돼요!
+ChangePerson
+Player
+저..
+혹시 가능하다면
+TextDown
+Camera
+1
+2
+TextUp
+Player
+저 커튼 파티션
+혹시 남는 게 있을까요?
+TextDown
+Animation
+21
+Camera
+Return
+2
+TextUp
+Nurse
+... 남는 여분이 있을 거예요.
+이따가 드리도록 할게요.
+ChangePerson
+Player
+아 그러면 특실로 가져다주시겠어요?
+ChangePerson
+Nurse
+알겠어요..
+근데..
+그건 그렇고 이제 어서 나가주세요!
+ChangePerson
+Player
+아.. 네!
+TextDown
+Animation
+22
+TextUp
+Player
+그럼... 특실로 가볼까?

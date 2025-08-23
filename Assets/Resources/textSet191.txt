@@ -1,0 +1,9 @@
+Npc
+TextUp
+Npc
+반납완료~~!
+ChangePerson
+Player
+그래도..
+게임 끝나기전에는
+반납했구나

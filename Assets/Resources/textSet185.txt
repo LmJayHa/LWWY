@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+함부로 깨우면 안되겠지..?

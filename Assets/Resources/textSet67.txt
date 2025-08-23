@@ -1,0 +1,132 @@
+Player
+Animation
+3
+TextUp
+Heroin
+오셨네요? 
+ChangePerson
+Player
+무슨 일이세요? 
+쪽지까지 남기시고 
+ChangePerson
+Heroin
+사실 들려주고 싶은 것이 있어서 부른 거예요.
+ChangePerson
+Player
+들려주고 싶은 것이요..? 
+ChangePerson
+Heroin
+이리 와서 앉아보시겠어요? 
+TextDown
+Animation
+4
+Camera
+0
+2
+Sound
+Effect
+NoDelay
+18
+TextUp
+Player
+'에델이 이어폰을 끼워줬다' 
+TextDown
+Animation
+5
+TextUp
+Heroin
+잘 들어봐요.
+TextDown
+Sound
+Effect
+Delay
+10
+2
+Sound
+Background
+9
+false
+TextUp
+Player
+'이건... 노을..'
+'포근한 느낌이야' 
+ChangePerson
+Heroin
+노을...이에요.
+TextDown
+Animation
+6
+TextUp
+Heroin
+이 노래 제목이요. 
+TextDown
+Animation
+7
+TextUp
+Player
+정말 멋진 노래네요.
+ChangePerson
+Heroin
+어릴 적 카밀리아와 함께 놀다 지치면
+항상 이 노래를 들으며 잠에 들었어요.
+그러면 꿈속에선 제가 붉게 저무는
+노을을 볼 수 있었죠.
+TextDown
+Animation
+8
+TextUp
+Heroin
+꿈속에서만 볼 수 없었지만..
+저는 노을이 너무 예뻐 보였어요.
+TextDown
+Animation
+9
+TextUp
+Player
+'노을이라...'
+TextDown
+Animation
+10
+TextUp
+Player
+'이건...'
+'뭔가가 떠올랐는데..'
+'기억인가??'
+'노을을 생각하며 이 노래를 듣고있으니'
+'무언가가 기억났어..'
+TextDown
+Animation
+11
+TextUp
+Heroin
+무슨 일 있으신가요?
+갑자기 이어폰도 빼시고.. 
+TextDown
+Animation
+12
+TextUp
+Player
+...
+에델 
+TextDown
+Animation
+13
+TextUp
+Heroin
+ㅇ.. 예 예? 
+ChangePerson
+Player
+제가 노을을 보여드릴게요.
+조금만 기다려주세요.
+TextDown
+Animation
+14
+Camera
+Return
+2
+Animation
+15
+TextUp
+Player
+어디 보자..
+일단 '그건' 꽃집에 있겠군

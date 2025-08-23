@@ -1,0 +1,4 @@
+Npc
+TextUp
+Npc
+[서쪽 숲]

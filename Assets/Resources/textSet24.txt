@@ -1,0 +1,15 @@
+Player
+Sound
+Effect
+NoDelay
+11
+ImageOn
+3
+TextUp
+Player
+<아담과 스미스의 보이는 손>
+이 책은 경제 서적이군.
+시장에서 물건을 깎아서 사는 법을 자세하게 지필하고 있어.
+.... 읽어볼까?
+ImageOff
+3

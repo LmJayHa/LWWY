@@ -1,0 +1,8 @@
+Nurse
+TextUp
+Nurse
+오늘은 일찍 주무시는 걸 추천드릴게요.
+내일은 외출하실 수 있으실 거예요.
+ChangePerson
+Player
+네 감사합니다.

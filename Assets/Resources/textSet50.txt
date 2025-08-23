@@ -1,0 +1,20 @@
+Player
+Animation
+0
+TextUp
+Player
+오늘도... 새벽에 일어났군.. 
+TextDown
+Camera
+0
+2
+TextUp
+Player
+빛이 나고 있을 거야
+TextDown
+Camera
+Return
+2
+TextUp
+Player
+특실로 다시 가보자

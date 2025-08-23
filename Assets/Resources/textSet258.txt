@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+여기엔 없는것같네..

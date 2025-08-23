@@ -1,0 +1,97 @@
+Player
+Animation
+10
+TextUp
+Nurse
+환자분?
+잠시 와보시겠어요?
+TextDown
+Animation
+2
+TextUp
+Player
+아.. 저
+ChangePerson
+Nurse
+환자분 어제 특실에 함부로 들어가셨다면서요?
+ChangePerson
+Player
+아 그게... 죄송합니다..
+ChangePerson
+Nurse
+그래서 지금
+특실 환자분께 죄송하다고 하려고 오신 거죠?
+ChangePerson
+Player
+그걸 어떻게...
+ChangePerson
+Nurse
+손에 초콜릿이 들려있잖아요.
+근데 그거... 다 녹은 것 같은데 괜찮나요?
+ChangePerson
+Player
+네..?
+TextDown
+Animation
+3
+TextUp
+Player
+음.. 이런 걸 선물로 주기에는 좀 뭐 하네요..
+ChangePerson
+Nurse
+이런 오늘은 마트랑 꽃집도 다 쉬는 날일 텐데..
+ChangePerson
+Player
+아.. 그런가요?
+ChangePerson
+Nurse
+뭐 선물이 중요한 건 아니니까요.
+TextDown
+Animation
+4
+TextUp
+Nurse
+지금은 아직 주무실 거예요.
+일어나셔도 원장님과 먼저 만나봐야 하고요.
+TextDown
+Animation
+5
+TextUp
+Nurse
+일단은 좀 기다리셨다가 이따가 가보세요.
+ChangePerson
+Player
+네 알겠습니다.
+감사합니다
+ChangePerson
+Nurse
+좋아요.. 
+아! 그리고 알고 계시죠?
+TextDown
+Animation
+3
+TextUp
+Player
+네? 뭐를..
+ChangePerson
+Nurse
+오늘 우리 지역 놀이마당 열리는 날이잖아요.
+심심하면 다녀오시는 건 어떠세요?
+ChangePerson
+Player
+그렇군요 참고하겠습니다.
+ChangePerson
+Nurse
+그럼 실례할게요.
+TextDown
+Animation
+6
+TextUp
+Nurse
+아 참 원장님께 먼저 들르시는 거 잊지 마세요!
+TextDown
+Animation
+7
+TextUp
+Player
+으음... 이따가 다시 오도록 할까...

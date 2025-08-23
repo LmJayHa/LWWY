@@ -1,0 +1,103 @@
+Player
+TextUp
+Player
+'여긴... 분명'
+'그때 본 그 고목나무...'
+ChangePerson
+Heroin
+어떠신가요 여기?
+ChangePerson
+Player
+근사한 고목나무예요.
+TextDown
+Animation
+0
+TextUp
+Heroin
+맞아요 엄청 근사하죠?
+TextDown
+Animation
+1
+TextUp
+Heroin
+예전부터 시간이 날 때면
+이곳에서 카밀리아라는 친구와 함께 놀았었어요.
+제겐 너무 소중한 친구였죠.
+ChangePerson
+Player
+맞아요 그 머리핀도 그 친구가 준거였죠?
+TextDown
+Animation
+0
+TextUp
+Heroin
+그걸 어떻게 아셨어요..?
+제가 말한 적이 있던가요?
+ChangePerson
+Player
+'아...아차'
+TextDown
+Animation
+2
+TextUp
+Player
+아 아뇨 그냥 뭔가 그럴 것 같았어요.
+TextDown
+Animation
+3
+TextUp
+Heroin
+예리하시네요.
+맞아요 그 친구가 준 머리핀이었어요.
+그래서 죄송스럽게도 지난번에 머리핀을 거절한 거고요.
+ChangePerson
+Player
+괜찮습니다.
+ChangePerson
+Heroin
+나중에 기회가 되면 카밀리아를 소개해 주고 싶어요.
+당신이라면
+분명 서로 잘 맞을 거라고 생각해요.
+TextDown
+Animation
+4
+TextUp
+Player
+꼭 만나보고 싶네요.
+다음에 기회가 된다면 꼭 소개해 주세요!
+ChangePerson
+Heroin
+네 당연하죠!
+그건 그렇고...
+TextDown
+Animation
+1
+TextUp
+Heroin
+친구가 돼 주셔서 정말 고마워요.
+당신은 정말 따뜻한 사람인 것 같아요.
+무리한 부탁이었을 텐데 같이 나와주셔서 감사해요.
+ChangePerson
+Player
+'이 사람이 가진 병을 알게 됐음에도 이상하게... 지난번부터'
+'이 사람과는 친해질 수 있을 것 같다는 생각이 들었지..'
+'알게 모르게 마음이 가는 사람이야'
+TextDown
+Animation
+3
+TextUp
+Player
+고마워요 당신도 정말 좋은 사람인 것 같아요.
+ChangePerson
+Heroin
+이런 이제 시간이 많이 지났네요.
+어서 돌아가요 이제 주무셔야죠
+ChangePerson
+Player
+그러죠
+TextDown
+Animation
+5
+TextUp
+Player
+오늘도... 가볼까?

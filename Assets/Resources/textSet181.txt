@@ -1,0 +1,4 @@
+Npc
+TextUp
+Npc
+잘 관리가 된 분재이다.

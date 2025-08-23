@@ -1,0 +1,35 @@
+Player
+Animation
+2
+TextUp
+Clerk
+안녕하세요 손님!
+ChangePerson
+Player
+혹시 여기에 동백꽃이 있나요?
+ChangePerson
+Clerk
+동백꽃이라.. 잠시만요.
+TextDown
+Animation
+3
+TextUp
+Clerk
+앗.. 마지막 남은 동백꽃이 방금 팔렸어요 정말 죄송합니다..
+ChangePerson
+Player
+마지막 손님이요..?
+ChangePerson
+Clerk
+네네 알렉스 씨라고 바로 앞 집에 다리가 좀 불편하신 할아버지가 계신데
+그분께서 방금 동백꽃을 사 가셨어요.
+ChangePerson
+Player
+아... 그렇군요
+ChangePerson
+Clerk
+정말 필요하신 꽃이라면 알렉스 씨를 한번 찾아가 보는 건 어떤가요?
+ChangePerson
+Player
+아... 그렇군요
+'으음.. 알렉스씨 집에 한번 가볼까?'

@@ -1,0 +1,183 @@
+Player
+Camera
+1
+2
+Animation
+13
+TextUp
+Heroin
+이것 봐 카밀리아!
+내방이 엄청 넓어졌지!
+이제 벽 끝까지
+TextDown
+Animation
+14
+TextUp
+Heroin
+이렇게나 오래 걸린다??
+ChangePerson
+Player
+'엄청 밝은 아이네 보는 나마저 기분이 좋아져'
+'내가 어릴 때도 이렇게 밝게 놀았을까'
+ChangePerson
+Heroin
+그리고 있지
+얼른 카펫으로 와봐!
+TextDown
+Animation
+15
+TextUp
+Heroin
+이것뿐만이 아니야
+TextDown
+Sound
+Effect
+NoDelay
+10
+Animation
+16
+TextUp
+Heroin
+짜잔!!
+ChangePerson
+Player
+이게 뭐야??
+ChangePerson
+Heroin
+이번에 새로 산 엄청 큰 음악상자야!
+TextDown
+Animation
+17
+TextUp
+Player
+음악상자?
+TextDown
+Animation
+18
+TextUp
+Player
+'카세트 플레이어를 음악상자라 했던가..?'
+ChangePerson
+Heroin
+이거봐 여기서 이런 노래도 틀 수 있어
+TextDown
+Animation
+19
+TextUp
+Heroin
+엄청 신나지!
+ChangePerson
+Player
+응! 엄청 신난다
+ChangePerson
+Heroin
+그리고 이런 것도 틀 수 있어
+TextDown
+Animation
+20
+TextUp
+Player
+이 노래도 좋다
+ChangePerson
+Heroin
+그렇지 그렇지? 하지만 나는
+이 노래가 엄청 좋아
+너도 잘 들어봐
+TextDown
+Animation
+22
+TextUp
+Player
+'우와....'
+'이 노래는 정말 좋은데..?'
+'무언가 마음에 잔잔한 바람이 부는 것 같아'
+'포근해'
+TextDown
+Animation
+23
+TextUp
+Heroin
+어때 카밀리아?
+ChangePerson
+Player
+너무 좋아 이 노래 제목이 뭐야?
+ChangePerson
+Heroin
+원래 제목은 없었는데
+엄마가 아는 아저씨가 날 위해서 만들어 줘서 내가 이름을 지었지!
+ChangePerson
+Player
+뭔데??
+TextDown
+Animation
+24
+TextUp
+Heroin
+노을
+내가 가장 좋아하는 거잖아!
+내가 해님을 볼 수 있게 되면
+엄마가 사진으로 보여줬던 노을을 꼭 보고 싶어
+그래서 노을이라고 지었어!!
+TextDown
+Camera
+Return
+2
+Animation
+21
+TextUp
+Player
+볼 수 있을 거야!
+분명히
+ChangePerson
+Heroin
+그치? 나 첫 노을은 카밀리아 너랑 꼭 같이 보고 싶어
+나중에 꼭 노을을 보러 가자!
+ChangePerson
+Player
+좋아
+TextDown
+Animation
+25
+TextUp
+Heroin
+그래! 그럼 오늘도 다시 왕자와 공주님 놀이를 해볼까?
+ChangePerson
+Player
+왕자와 공주님 놀이..?
+ChangePerson
+Heroin
+너 또 똑같은 놀이한다고 생각했지??
+ChangePerson
+Player
+아.. 아니야
+TextDown
+Animation
+26
+TextUp
+Heroin
+이 음악상자를 가지고 하면 지금까지보다 더 재밌을 거야!!
+TextDown
+Animation
+27
+TextUp
+Player
+정말 그렇겠네 그럼 내가 왕자님을 하면 되는 거지?
+TextDown
+Animation
+30
+TextUp
+Heroin
+무슨 소리야 카밀리아 당연히 내가 왕자님을 해야지!
+TextDown
+Animation
+28
+TextUp
+Player
+엥...?
+'보통 남자가 왕자를 하지 않던가..?'
+TextDown
+Animation
+29
+TextUp
+Heroin
+자 빨리 준비해!!

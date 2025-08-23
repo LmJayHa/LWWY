@@ -1,0 +1,15 @@
+Player
+Sound
+Effect
+NoDelay
+11
+ImageOn
+2
+TextUp
+Player
+<99세 노인은 창문을 넘어 도망칠까 말까>
+이건 스웨덴의 유명 작가가 집필 한 소설이군
+최근 들어 가장 화제인 소설이라고 적혀있어.
+이참에 읽어보는 것도 좋겠군.
+ImageOff
+2

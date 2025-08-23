@@ -1,0 +1,24 @@
+Doctor
+Animation
+8
+TextUp
+Doctor
+아 환자분 오셨군요.
+제가 예상했던 것보다 회복 속도가 아주 빠르십니다.
+이 정도면 예상보다 훨씬 빨리 퇴원하실 수 있겠어요
+앞으로는 저에게 아침마다 오시지 않으셔도 되지만...
+물론 무리하시는 건 금물입니다.
+ChangePerson
+Player
+네 선생님 감사합니다.
+ChangePerson
+Doctor
+아 물론 놀이마당은 다녀오셔도 괜찮습니다.
+일 년에 한번 있는 기회거든요.
+TextDown
+Animation
+9
+TextUp
+Player
+'놀이마당이라...'
+'한번 가볼 만하겠는데'

@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+일단은 원장한테 가도록 하자.

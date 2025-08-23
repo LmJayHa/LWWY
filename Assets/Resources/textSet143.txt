@@ -1,0 +1,12 @@
+Npc
+TextUp
+Npc
+반가워! 
+몸은 좀 괜찮은가?
+ChangePerson
+Player
+네 할머니 저도 많이 괜찮아져서
+외출을 허락받았어요
+ChangePerson
+Npc
+그렇구만.. 자네도 빨리 퇴원하면 좋겠네..

@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+누군가 읽던 책이다.
+거의 새 책같다.

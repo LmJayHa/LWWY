@@ -1,0 +1,27 @@
+Player
+Animation
+1
+TextUp
+Player
+그때와 같아...
+난 또 어린애인 것 같군
+그나저나 주변이 어두운데 밤인 건가?
+TextDown
+Animation
+2
+Camera
+0
+2
+TextUp
+Heroin
+카밀리아 빨리 와!
+TextDown
+Camera
+Return
+2
+Animation
+3
+TextUp
+Player
+'아 나를 부르는 거였지'
+'목소리는 위에서 들렸는데..'

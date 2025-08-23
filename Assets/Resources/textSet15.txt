@@ -1,0 +1,40 @@
+Player
+Sound
+StopBackground
+TextUp
+Player
+여...여긴...
+TextDown
+Sound
+Background
+3
+true
+Animation
+4
+TextUp
+Player
+이게 특실이라고? 
+엄청 이상하잖아.
+공간도 넓고
+풍경도 새까맣고..
+마치 다른 공간에 온 듯해...
+게다가 어떻게 방 안에 안개가 자욱할 수 있지..?
+Sound
+Effect
+Delay
+5
+0.3
+Sound
+Effect
+Delay
+5
+1
+TextDown
+Animation
+5
+TextUp
+Nurse
+환자분! 거기서 뭐 하세요!
+ChangePerson
+Player
+이런.. 일단 나가야겠어

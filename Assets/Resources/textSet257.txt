@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+이걸 에델에게 전해주자

@@ -1,0 +1,4 @@
+Player
+TextUp
+Nurse
+이제 특실로 가실 수 있어요.

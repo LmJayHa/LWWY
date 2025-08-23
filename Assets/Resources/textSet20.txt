@@ -1,0 +1,47 @@
+Doctor
+Animation
+1
+TextUp
+Doctor
+좋은 아침입니다!
+몸 상태는 좀 어떠신가요?
+ChangePerson
+Player
+어제보다 어지러움은 많이 멎었습니다.
+기억은 여전히 나지 않지만요.
+ChangePerson
+Doctor
+그렇군요.
+그래도 몸 상태는 나아졌다니 그건 참 다행이네요.
+상태가 좋아 보이시니 오늘부터는 외출을 허가해 드릴 수 있을 것 같네요.
+간호사에게 일러두죠.
+ChangePerson
+Player
+안 그래도 바람을 좀 쐬고 싶었습니다.
+ChangePerson
+Doctor
+좋습니다.
+어디 들리시고 싶으신 곳이 있으신가요?
+TextDown
+Animation
+2
+TextUp
+Player
+으음...
+사실 잘 모르겠습니다.
+ChangePerson
+Doctor
+그렇다면 도서관에 가보시는 것은 어떠신가요?
+양질의 책이 아주 많이 있습니다.
+지루하신 병원생활을 이겨내기도 좋고요.
+ChangePerson
+Player
+그.. 그런가요?
+'이 사람 엄청난 책벌렌가 보군...'
+ChangePerson
+Doctor
+네! 아시다시피 우리 도서관은 책이 다양하기로도 유명하니까요.
+ChangePerson
+Player
+음.. 알겠습니다.
+'도서관이라.. 한번 들러볼까?'

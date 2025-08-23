@@ -1,0 +1,9 @@
+Npc
+TextUp
+Npc
+자네도 놀러왔구먼?
+몸이 많이 괜찮아진것같네
+ChangePerson
+Player
+네 할머니
+많이 좋아져서 구경나왔어요.

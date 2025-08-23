@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+신선해보이는 배추이다.
+품질이 아주 좋아보인다.

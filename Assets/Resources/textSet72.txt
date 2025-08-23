@@ -1,0 +1,7 @@
+Player
+Animation
+0
+TextUp
+Player
+일단은...
+특실로 가자

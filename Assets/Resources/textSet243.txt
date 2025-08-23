@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+으음.. 오늘은 더 나가지 말자

@@ -1,0 +1,59 @@
+Nurse
+Camera
+1
+2
+TextUp
+Nurse
+정말이지 특실엔 어떻게 들어가신 거예요!
+문도 잠겨있을 텐데..
+ChangePerson
+Player
+네..? 하지만 제가 들어가기 전부터
+이미 문이 열려있던... 걸요?
+그리고 특실이 뭔가 좀 이상했어요..
+안개도 껴있고.. 하늘도 새까맣고..
+ChangePerson
+Nurse
+그게 무슨 소리예요!
+아직 특실의 환자분은 오시지도 않았다고요!
+그리고 특실도 평범한 방과같이 꾸며져있어요.
+특별한 건 없다고요.
+TextDown
+Animation
+6
+TextUp
+Player
+...??
+하지만 제가 봤을 때는 엄청 탁 트인 공간이 있었는걸요?
+마치 다른 세상에 온 것만 같은...
+ChangePerson
+Nurse
+후우.. 그건 또 무슨 소리세요.
+여기는 창문 하나 없는 방이에요.
+어떻게 하면 탁 트인 공간이 나올 수 있겠어요?
+ChangePerson
+Player
+그.. 그런..
+'그럼 내가 본 건 대체 뭐지?'
+ChangePerson
+Nurse
+...
+하아...
+TextDown
+Animation
+7
+TextUp
+Nurse
+알겠어요. 잠시만 보여드릴게요.
+따라오세요.
+TextDown
+Animation
+8
+Camera
+Return
+2
+TextUp
+Player
+그러고 보니
+아까 나오던 빛이 안 보이는데..
+일단 간호사를 따라가볼까?

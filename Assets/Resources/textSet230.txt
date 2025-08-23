@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+함부로 들어가지 말자

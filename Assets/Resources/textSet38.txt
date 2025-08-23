@@ -1,0 +1,135 @@
+Player
+Animation
+3
+TextUp
+Player
+좋아! 퍼즐을 푼 것 같은데..?
+TextDown
+Animation
+4
+TextUp
+Player
+!!!
+지... 지진인가?
+뭐가 이렇게 심하게 흔들리는 거지?
+저... 정신이...
+TextDown
+Animation
+5
+TextUp
+Clerk
+.....
+.....리아
+카밀리아!
+TextDown
+Animation
+6
+TextUp
+Player
+여... 여긴
+ChangePerson
+Clerk
+무슨 일 있니? 갑자기 멍 때리고 말이야
+ChangePerson
+Player
+누구.. 시죠?
+ChangePerson
+Clerk
+어머 갑자기 무슨 소리를 하는 거니?
+에델 엄마잖아 괜찮은 거야??
+ChangePerson
+Player
+아.. 아니 그게..
+ChangePerson
+Heroin
+엄마!! 카밀리아 왔어?
+TextDown
+Animation
+7
+TextUp
+Clerk
+그래 방금 막 왔어
+TextDown
+Sound
+Effect
+NoDelay
+9
+Camera
+0
+3
+TextUp
+Heroin
+카밀리아!
+TextDown
+Animation
+8
+TextUp
+Heroin
+카밀리아! 
+왜 이렇게 늦었어!
+내가 얼마나 기다렸는 줄 알아??
+ChangePerson
+Player
+아... 미 미안해
+ChangePerson
+Heroin
+히히 괜찮아!
+그것보다 오늘은 너한테 보여주고 싶은 게 있어!
+너도 보면 진짜 진짜 좋아할 거야!
+ChangePerson
+Player
+그..
+ChangePerson
+Heroin
+먼저 가서 기다릴게!
+얼른 와야 해!
+TextDown
+Camera
+Return
+2
+Animation
+9
+TextUp
+Player
+저 애는 분명 특실의 그 아이였던 거 같은데..'
+'많이 어린 걸 보니 이곳이 현재는 아닌 건가?'
+'그리고 날 카밀리아라고 불렀지..?'
+'잠깐... 그러고 보니 시야가 좀 낮은데..'
+'!!!!!'
+TextDown
+Animation
+10
+TextUp
+Player
+'나 어린애가 됐잖아??'
+'이건 그럼 카밀리아라는 사람의 어릴 때 기억인 건가?'
+TextDown
+Animation
+11
+TextUp
+Clerk
+정말이지 누굴 닮았는지..
+매번 이렇게 에델을 위해서 와줘서 고마워 카밀리아
+오늘 몸이 많이 안 좋은 것 같은데 괜찮니?
+TextDown
+Animation
+12
+TextUp
+Player
+'일단은 자연스럽게 대해볼까'
+'이상한 특실에 대한 단서를 얻을지도 몰라'
+TextDown
+Animation
+11
+TextUp
+Player
+아 네 괜찮아요. 
+잠시 딴 생각을 하느라
+ChangePerson
+Clerk
+그래 그럼 오늘도 에델이랑 놀다 갈 거지?
+에델이 방을 옮겨서 2층 방으로 가면 된단다.
+어서 가보렴 어머니께는 내가 잘 말해둘게
+ChangePerson
+Player
+네 고맙습니다.

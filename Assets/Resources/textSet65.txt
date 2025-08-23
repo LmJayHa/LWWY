@@ -1,0 +1,16 @@
+Player
+Camera
+3
+2
+TextUp
+Player
+저쪽에 있는 책들이 흥미가 가는데..
+TextDown
+Camera
+Return
+2
+Animation
+0
+TextUp
+Player
+저쪽 카테고리도 읽어볼까?

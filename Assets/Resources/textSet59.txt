@@ -1,0 +1,52 @@
+Player
+Animation
+11
+TextUp
+Player
+이 꽃이..
+에델바이스?
+좋아 그럼 어서 알렉스 씨에게 가볼까?
+TextDown
+Animation
+12
+Sound
+Effect
+Delay
+18
+2
+TextUp
+Player
+여기 가져왔습니다.
+ChangePerson
+Alex
+우리 마을에서는 쉽게 볼 수 없는 꽃을 다시 보게 되다니..
+보다시피 내 몸이 이래서 캐러 갈 수도 없었는데 참 잘 됐어!
+약속대로 이 꽃은 너에게 주지
+TextDown
+Animation
+8
+TextUp
+Player
+정말 감사합니다!
+ChangePerson
+Alex
+혹시 에델바이스의 꽃말을 알고 있나?
+ChangePerson
+Player
+아니요..?
+ChangePerson
+Alex
+바로 소중한 추억이야
+자네에게 에델바이스를 가져와달라고 한건 바로 그 꽃말이 맘에 들어서였어
+동백꽃 사이에 에델바이스를 조금 넣어주지
+네가 선물할 꽃이 좋은 추억이 되었으면 좋겠군
+TextDown
+Sound
+Effect
+Delay
+18
+2
+TextUp
+Player
+감사합니다.
+'이제 특실로 가볼까?'

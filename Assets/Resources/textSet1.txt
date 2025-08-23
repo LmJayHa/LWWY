@@ -1,0 +1,55 @@
+Nurse
+Animation
+0
+TextUp
+Nurse
+정말이지 옆에서 이렇게 부르는데 쳐다좀 봐주세요!
+ChangePerson
+Player
+아.. 죄송합니다.
+방금 일어나서 그런지 어지럽고 정신이 없어서..
+여기는...
+ChangePerson
+Nurse
+뭐 괜찮아요 그러실 수 있죠.
+보시다시피 여긴 병원이에요.
+환자분께선 수술을 마치시고 방금 일어나셨구요.
+통증이 있는 곳은 없으세요?
+ChangePerson
+Player
+네.. 어지러움이 좀 있지만
+그다지 아픈곳은 없는 것 같아요. 
+ChangePerson
+Nurse
+그건 정말 다행이네요.
+어지러운건 금방 가실거에요.
+ChangePerson
+Player
+저기...
+통증이 있거나 한 곳은 없지만
+기억이 아무것도 나지 않아서요..
+ChangePerson
+Nurse
+으음... 그런가요
+TextDown
+Animation
+1
+TextUp
+Nurse
+아마 교통사고로 인한 단기적 기억상실증이지 않을까요?
+시간이 지나면 자연스레 돌아올 것이라 생각해요.
+1층에 원장님께서 기다리시고 계세요. 자세한 얘기는 원장님이 해주실 거예요.
+ChangePerson
+Player
+그렇군요.. 감사합니다.
+ChangePerson
+Nurse
+너무 걱정하지 마시고 어지러움이 좀 멎으시면 찾아가주세요.
+그럼 실례할게요.
+TextDown
+Animation
+2
+TextUp
+Player
+일단 1층으로 가볼까?
+가만히 앉아있는다고 달라질 것도 없고 말이야.

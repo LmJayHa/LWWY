@@ -1,0 +1,26 @@
+Player
+Animation
+0
+TextUp
+Player
+역시 저번과 같은 공간이야
+안개도 자욱하고..
+하나 다른 건 이상한 물건들이 생겼다는 거 정도인가?
+TextDown
+Animation
+1
+TextUp
+Player
+!!!
+뭐야 이번엔 나가는 문이 없잖아!
+이.. 이게 어떻게 된 거지?
+저번엔 분명 있었는데..
+으음... 이걸 어쩌지
+TextDown
+Animation
+2
+TextUp
+Player
+그러고 보니 이 물건들
+잘 보니 무언가 퍼즐을 나타내는 것 같은데
+한번 살펴볼까

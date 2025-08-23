@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+손을 씻을 수 있는 세면대이다.
+특별한 건 없어 보인다.

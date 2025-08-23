@@ -1,0 +1,7 @@
+Player
+Animation
+0
+TextUp
+Player
+으....
+화장실이 좀 급한데...

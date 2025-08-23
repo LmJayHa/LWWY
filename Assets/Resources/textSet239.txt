@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+이제 책은 그만 읽고 싶은데..

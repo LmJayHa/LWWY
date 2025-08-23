@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+먹을 것을 좀 사볼까?

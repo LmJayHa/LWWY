@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+평범한 장바구니이다.
+나한테는 필요없겠지?

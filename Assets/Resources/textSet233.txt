@@ -1,0 +1,4 @@
+Player
+TextUp
+Alex
+병원으로 돌아가본다고 하지 않았나?

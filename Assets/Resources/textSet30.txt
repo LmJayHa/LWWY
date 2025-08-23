@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+이걸로 충분하겠지
+계산하러 가자

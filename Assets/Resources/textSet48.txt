@@ -1,0 +1,27 @@
+Player
+Animation
+12
+Sound
+Effect
+Delay
+7
+1
+Sound
+Effect
+Delay
+7
+1
+TextUp
+Player
+저 계신가요..?
+어제 그 사람입니다.
+사과를 드리고 싶어서 찾아왔는데
+들어가도 될까요?
+TextDown
+Animation
+13
+TextUp
+Heroin
+.....? 어제 그분..
+...
+들어오세요.

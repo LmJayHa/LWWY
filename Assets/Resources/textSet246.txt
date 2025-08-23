@@ -1,0 +1,6 @@
+Player
+Animation
+100
+TextUp
+Player
+지금은 굳이 갈 필요가 없겠지..

@@ -1,0 +1,16 @@
+Nurse
+Animation
+8
+TextUp
+Nurse
+기다리셨죠?
+여기 약 받으세요.
+TextDown
+Sound
+Effect
+Delay
+2
+1
+TextUp
+Nurse
+약 드신 후에 말을 걸어주세요.

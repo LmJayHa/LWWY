@@ -1,0 +1,7 @@
+Player
+Animation
+0
+TextUp
+Player
+이번엔 버튼들과
+저 문양들은...

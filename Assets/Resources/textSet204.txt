@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+오늘은 외출을 하지 말라했지..
+내일 나가도록 하자.

@@ -1,0 +1,26 @@
+Player
+TextUp
+Player
+음...
+TextDown
+Camera
+0
+2
+Animation
+5
+TextUp
+Player
+여기는...
+특별한 곳처럼 보이는데..
+Animation
+6
+문에 아무런 말도 안 적혀있고,
+병원의 모든 곳이 열려있는데 이곳만 굳게 닫혀있어..
+가면 안 되는 장소인 건가...?
+TextDown
+Camera
+Return
+2
+TextUp
+Player
+간호사한테 물어봐야겠군.

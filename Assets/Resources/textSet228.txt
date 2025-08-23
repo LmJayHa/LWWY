@@ -1,0 +1,4 @@
+Player
+TextUp
+Player
+좋아! 정답을 맞췄어!

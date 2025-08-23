@@ -1,0 +1,125 @@
+Player
+Animation
+14
+TextUp
+Player
+어제는 정말 죄송했습니다.
+사실 간호사로부터 이곳 특실에 대한 이야기를 듣게 됐는데
+친구가 되고 싶어서 찾아왔었어요.
+그렇지만 함부로 병실에 들어온 건 정말로 죄송했습니다..
+TextDown
+Animation
+15
+TextUp
+Heroin
+아.. 그렇군요.
+어제 일은 괜찮아요!
+사실 저도 밤이 되면 찾아봬 보려고 했었어요.
+나쁜 사람 같지 않았거든요.
+ChangePerson
+Player
+하하 그런가요?
+ChangePerson
+Heroin
+이름이 뭐예요?
+ChangePerson
+Player
+"이름"...
+TextDown
+Animation
+13
+TextUp
+Player
+...그게 사고 때문에 사실 잘 기억나지 않아요.
+ChangePerson
+Heroin
+아 죄송해요 그런 줄도 모르고..
+ChangePerson
+Player
+괜찮아요. 그쪽은 이름이 어떻게 되나요?
+TextDown
+Animation
+15
+Sound
+Background
+11
+false
+TextUp
+Heroin
+'에델' 
+제 이름은 에델이에요!
+TextDown
+Animation
+9
+TextUp
+Player
+'에델... 역시 그때 본 꼬마 아이는 이 여자애였어'
+TextDown
+Animation
+16
+TextUp
+Player
+예쁜 이름이네요.
+아 참!
+TextDown
+Animation
+18
+Sound
+Effect
+Delay
+18
+2
+TextUp
+Player
+이거 제가 드리는 선물이에요.
+머리핀이 많이 낡은 것 같고 어제 일도 죄송하고 해서..
+ChangePerson
+Heroin
+아.. 정말 감사해요..
+그렇지만...
+이건 받을 수 없을 것 같아요.
+ChangePerson
+Player
+왜죠..?
+ChangePerson
+Heroin
+주시는 마음은 정말 감사하지만 지금 제가 차고 있는 머리핀
+어릴 적 친구가 준 정말 소중한 물건이에요.
+그래서 감사하지만 저는 이 머리핀을 계속 차고 있고 싶어요.
+ChangePerson
+Player
+아.. 네 알겠습니다. 어쩔 수 없죠..
+그럼 이만 실례하겠습니다.
+TextDown
+Animation
+17
+TextUp
+Heroin
+아 그 그래도..!
+TextDown
+Animation
+16
+TextUp
+Heroin
+이거 정말 잘 간직할게요!
+정말 고마워요.
+ChangePerson
+Player
+마음에 드신다니 다행이네요.
+ChangePerson
+Heroin
+그리고 혹시 괜찮으시면
+다음에 또 놀러 와줄 수 있으세요?
+TextDown
+Animation
+9
+TextUp
+Player
+'무언가.. 이 여자애랑은'
+'좋은 관계가 될 수 있을 것 같아'
+TextDown
+Animation
+13
+TextUp
+Player
+당연하죠 꼭 놀러 올게요

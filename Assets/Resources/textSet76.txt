@@ -1,0 +1,19 @@
+Player
+TextUp
+Player
+저분은...
+TextDown
+Camera
+0
+2
+TextUp
+'알렉스'씨였나?
+지난번 일도 감사하고 하니
+말이라도 걸어볼까..?
+TextDown
+Camera
+Return
+2
+TextUp
+Player
+가보자

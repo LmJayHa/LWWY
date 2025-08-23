@@ -1,0 +1,5 @@
+Player
+TextUp
+Player
+벽난로..
+따뜻하다..
