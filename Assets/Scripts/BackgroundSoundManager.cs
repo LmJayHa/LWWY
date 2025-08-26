@@ -22,7 +22,7 @@ public class BackgroundSoundManager : MonoBehaviour
 
     public int nowBackgroundSoundNum;
 
-    private AudioSource audioSource;
+    public AudioSource bgmSource;     // BGM 전용 오디오 소스
 
     public AudioClip[] AudioClips;
 
@@ -30,8 +30,7 @@ public class BackgroundSoundManager : MonoBehaviour
     {
         nowBackgroundSoundNum = -1;
         DontDestroyOnLoad(gameObject);
-        audioSource = GetComponent<AudioSource>();
-        audioSource.loop = false;
+        bgmSource.loop = false;
     }
 
     public void PlayBackgroundSound(int idx, bool isLoop)
@@ -39,12 +38,12 @@ public class BackgroundSoundManager : MonoBehaviour
         nowBackgroundSoundNum = idx;
         Debug.Log(nowBackgroundSoundNum);
         Debug.Log(AudioClips.Length);
-        audioSource.Stop();
-        audioSource.loop = isLoop;
+        bgmSource.Stop();
+        bgmSource.loop = isLoop;
         Debug.Log(idx+"번 실행"+ AudioClips[idx]);
-        audioSource.clip = AudioClips[idx];
-        audioSource.Play();
-        audioSource.volume = 0;
+        bgmSource.clip = AudioClips[idx];
+        bgmSource.Play();
+        bgmSource.volume = 0;
         StartCoroutine(FadeInSoundVolume());
         Debug.Log(AudioClips.Length);
     }
@@ -58,18 +57,18 @@ public class BackgroundSoundManager : MonoBehaviour
         float time = Time.time;
         while (Time.time<=time+2f)
         {
-            if (audioSource.volume + Time.deltaTime*3 >= 0.5f)
+            if (bgmSource.volume + Time.deltaTime*3 >= 0.5f)
             {
-                audioSource.volume = 1f;
+                bgmSource.volume = 1f;
                 break;
             }
             else {
-                audioSource.volume += Time.deltaTime * 5;
+                bgmSource.volume += Time.deltaTime * 5;
             }
             yield return new WaitForSeconds(0.05f);
             
         }
-        audioSource.volume = 0.5f;
+        bgmSource.volume = 0.5f;
     }
 
     public IEnumerator FadeOutSoundVolume()
@@ -77,20 +76,20 @@ public class BackgroundSoundManager : MonoBehaviour
         float time = Time.time;
         while (Time.time <= time + 2f)
         {
-            if (audioSource.volume - Time.deltaTime * 3 <= 0f)
+            if (bgmSource.volume - Time.deltaTime * 3 <= 0f)
             {
-                audioSource.volume = 0f;
+                bgmSource.volume = 0f;
                 break;
             }
             else
             {
-                audioSource.volume -= Time.deltaTime * 5;
+                bgmSource.volume -= Time.deltaTime * 5;
             }
             yield return new WaitForSeconds(0.05f);
 
         }
-        audioSource.volume = 0f;
-        audioSource.Stop();
+        bgmSource.volume = 0f;
+        bgmSource.Stop();
     }
 
 }

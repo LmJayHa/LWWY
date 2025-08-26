@@ -18,11 +18,12 @@ public class SoundManager : MonoBehaviour
         }
     }//SoundManager를 싱글턴으로 설정
 
+    public AudioMixer mainMixer;      // 인스펙터에서 MainMixer를 연결할 변수
+    public AudioSource sfxSource;     // SFX 전용 오디오 소스
+
     private static SoundManager soundM_instance; //싱글턴에 이용된 인스턴스
 
     public PlayerInput playerInput;
-
-    private AudioSource audioSource;
 
     public AudioClip[] EffectClips;
 
@@ -45,39 +46,52 @@ public class SoundManager : MonoBehaviour
     {
 
         DontDestroyOnLoad(gameObject);
-        audioSource = GetComponent<AudioSource>();
-        audioSource.loop = false;
+        sfxSource.loop = false;
         isStepping = false;
         FootStepIdx = 0;
     }
 
+    public void SetBGMVolume(float volume)
+    {
+        // volume 값은 0.0001 ~ 1 사이의 값이어야 합니다. (슬라이더 값)
+        // 데시벨은 로그 스케일이므로 아래처럼 변환해야 자연스럽게 조절됩니다.
+        mainMixer.SetFloat("BGMVolume", Mathf.Log10(volume) * 20);
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        mainMixer.SetFloat("SFXVolume", Mathf.Log10(volume) * 20);
+    }
+
     public void PlayEffectClip(int idx) {
-        audioSource.PlayOneShot(EffectClips[idx]);
+        sfxSource.PlayOneShot(EffectClips[idx]);
     }
 
     public IEnumerator PlayEffectClipAndDelay(int idx, float time) {
-        audioSource.PlayOneShot(EffectClips[idx]);
+        sfxSource.PlayOneShot(EffectClips[idx]);
         yield return new WaitForSeconds(time);
         ChatManager.chatManager.NextChat();
     }
 
     public void PlayTextSound() {
-        audioSource.PlayOneShot(TextSound);
+        sfxSource.PlayOneShot(TextSound);
     }
 
     public void PlayClickSound()
     {
-        audioSource.PlayOneShot(OnClickSound);
+        sfxSource.PlayOneShot(OnClickSound);
+        //audioSource.PlayOneShot(OnClickSound);
     }
 
     public void PlayDoorSound(int idx)
     {
-        audioSource.PlayOneShot(DoorSounds[idx]);
+        sfxSource.PlayOneShot(DoorSounds[idx]);
+       // audioSource.PlayOneShot(DoorSounds[idx]);
     }
 
     public void PlayDoorLockSound()
     {
-        audioSource.PlayOneShot(doorLockSound);
+        sfxSource.PlayOneShot(doorLockSound);
     }
 
     public void PlayTextDownSound()
@@ -92,10 +106,11 @@ public class SoundManager : MonoBehaviour
 
     public void PlayNextTextSound()
     {
-        audioSource.PlayOneShot(NextTextSound);
+        sfxSource.PlayOneShot(NextTextSound);
     }
 
     public void PlayFootStepSounds() {
+
         if (!isStepping) {
             StartCoroutine(FootStepSound(FootStepIdx));
         }
@@ -105,11 +120,13 @@ public class SoundManager : MonoBehaviour
         isStepping = true;
         if (playerInput.run)
         {
-            audioSource.PlayOneShot(FootStepSounds[idx]);
+            sfxSource.PlayOneShot(FootStepSounds[idx]); // sfxSource로 변경
+          //  audioSource.PlayOneShot(FootStepSounds[idx]);
             yield return new WaitForSeconds(0.3f);
         }
         else {
-            audioSource.PlayOneShot(FootStepSounds[idx]);
+            sfxSource.PlayOneShot(FootStepSounds[idx]); // sfxSource로 변경
+           // audioSource.PlayOneShot(FootStepSounds[idx]);
             yield return new WaitForSeconds(0.45f);
         }
         isStepping = false;
@@ -127,7 +144,7 @@ public class SoundManager : MonoBehaviour
     public IEnumerator FootStepRunSound(int idx)
     {
         isStepping = true;
-            audioSource.PlayOneShot(FootStepSounds[idx]);
+        sfxSource.PlayOneShot(FootStepSounds[idx]);
             yield return new WaitForSeconds(0.3f);
         isStepping = false;
     }
