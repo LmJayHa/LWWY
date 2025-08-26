@@ -21,9 +21,6 @@ public class EscManager : MonoBehaviour
 
     private static EscManager esc_instance; //싱글턴에 이용된 인스턴스
 
-
-
-
     public Text[] SaveButtonTexts = new Text[3];
     public GameObject[] SaveButtonObjs = new GameObject[3];
     public Text[] LoadButtonTexts = new Text[3];
@@ -35,6 +32,7 @@ public class EscManager : MonoBehaviour
     public GameObject ESCUI;
     public GameObject LoadUI;
     public GameObject SaveUI;
+    public GameObject OptionUI;
     public GameObject EndUI;
 
     public GameObject SaveCheckUI;
@@ -42,6 +40,7 @@ public class EscManager : MonoBehaviour
 
     private bool isOpenLoad;
     private bool isOpenSave;
+    private bool isOpenOption;
     private bool isOpenEnd;
 
 
@@ -82,6 +81,7 @@ public class EscManager : MonoBehaviour
 
 
         if (playerInput.pause) {
+
             SoundManager.soundManager.PlayClickSound();
             if (isOpen)
             {
@@ -97,6 +97,12 @@ public class EscManager : MonoBehaviour
                     SaveUI.SetActive(false);
                     SaveCheckUI.SetActive(false);
                     isOpenSave = false;
+                    ButtonsUI.SetActive(true);
+                }
+                else if (isOpenOption)
+                {
+                    OptionUI.SetActive(false);
+                    isOpenOption = false;
                     ButtonsUI.SetActive(true);
                 }
                 else if (isOpenEnd)
@@ -136,6 +142,14 @@ public class EscManager : MonoBehaviour
         ButtonsUI.SetActive(false);
         LoadUI.SetActive(true);
         isOpenLoad = true;
+    }
+
+    public void OnClickOptionButton()
+    {
+        SoundManager.soundManager.PlayClickSound();
+        ButtonsUI.SetActive(false);
+        OptionUI.SetActive(true);
+        isOpenOption = true;
     }
 
     public void OnClickEndButton() {
