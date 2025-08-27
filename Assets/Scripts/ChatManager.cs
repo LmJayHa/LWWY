@@ -35,11 +35,20 @@ public class ChatManager : MonoBehaviour
 
     private static ChatManager chatM_instance; //싱글턴에 이용된 인스턴스
 
+    public readonly float CHAT_DOWN_Y_VALUE = 600;
+    public readonly float CHAT_DOWN_SPEED = 1000;
+    public readonly float CHAT_DOWN_AND_UP_SPEED = 2000;
+
+
     public PlayerMovement playerMovement;
 
     public GameObject chatUI; // 대화창 ui를 띄울것 
+    private RectTransform chatUIRectTr; // 대화창 ui의 RectTr
     public Text chatText; //  대화창에 표시될 텍스트
     public Image chatBackGround; // 대화창 이미지
+
+    public Text chatPersonText; //  대화창에 표시될 사람명 텍스트
+    public Image chatPersonBackGround; // 대화창에 표시될 사람표시 이미지
 
     private Color playerColor = new Color(255f / 255f, 212f / 255f, 148f / 255f, 201f / 255f);
     private Color nurseColor= new Color(246f/255f, 133f / 255f, 233f / 255f, 201f / 255f);
@@ -85,6 +94,7 @@ public class ChatManager : MonoBehaviour
     private bool isFadeOut;
     private bool isEnd;
     private bool isChange;
+    private bool isChange_down;
     private bool isUp;
     private bool isDown;
 
@@ -195,6 +205,7 @@ public class ChatManager : MonoBehaviour
                 ToChangeColor = nextStr;
                 isColorChanged = false;
                 isChange = true;
+                isChange_down = true;
                 //SoundManager.soundManager.PlayTextDownSound();
             }
             else if (nextStr == "TextDown")
@@ -277,16 +288,19 @@ public class ChatManager : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
 
+        chatUIRectTr = chatUI.GetComponent<RectTransform>();
+
         isStart = false; 
         isFadeIn = false;
         isFadeOut = false;
         isEnd = false;
         isChange = false;
+        isChange_down = true;
         isUp = false;
         isDown = false;
 
-        ChatUiPosition = chatUI.transform.position;
-        ChatUiMinusPosition = ChatUiPosition + new Vector2(0, -350);
+        ChatUiPosition = chatUIRectTr.position;
+        ChatUiMinusPosition = ChatUiPosition + new Vector2(0, -CHAT_DOWN_Y_VALUE);
 
         chatUI.SetActive(false);
     }
@@ -352,30 +366,45 @@ public class ChatManager : MonoBehaviour
     private void changeColor(string str) {
 
         if (str == "Player") {
+            chatPersonText.text = "???";
             chatBackGround.color = playerColor;
-        }else if (str == "Nurse")
+            chatPersonBackGround.color = playerColor;
+        }
+        else if (str == "Nurse")
         {
+            chatPersonText.text = "간호사";
             chatBackGround.color = nurseColor;
+            chatPersonBackGround.color = nurseColor;
         }
         else if (str == "Doctor")
         {
+            chatPersonText.text = "의사";
             chatBackGround.color = doctorColor;
+            chatPersonBackGround.color = doctorColor;
         }
         else if (str == "Npc")
         {
+            chatPersonText.text = "";
             chatBackGround.color = npcColor;
+            chatPersonBackGround.color = npcColor;
         }
         else if (str == "Clerk")
         {
+            chatPersonText.text = "점원";
             chatBackGround.color = clerkColor;
+            chatPersonBackGround.color = clerkColor;
         }
         else if (str == "Heroin")
         {
+            chatPersonText.text = "Heroin";
             chatBackGround.color = heroinColor;
+            chatPersonBackGround.color = heroinColor;
         }
         else if (str == "Alex")
         {
+            chatPersonText.text = "Alex";
             chatBackGround.color = alexColor;
+            chatPersonBackGround.color = alexColor;
         }
     }
 
@@ -438,49 +467,54 @@ public class ChatManager : MonoBehaviour
 
     private void ChatUIDown()
     {
-        if (Time.time <= startTime + usingTime && ChatUiMinusPosition.y <= chatUI.transform.position.y)
+        if (ChatUiMinusPosition.y <= chatUIRectTr.position.y)
         {
-            chatUI.transform.Translate(0, -350 * Time.deltaTime, 0);
+            chatUIRectTr.Translate(0, -CHAT_DOWN_SPEED * Time.deltaTime, 0);
         }
         else
         {
-            chatUI.transform.position = ChatUiMinusPosition;
+            chatUIRectTr.position = ChatUiMinusPosition;
             EndChat();
         }
     }
 
     private void ChatUIDownAndUp()
     {
-        if (Time.time <= startTime + usingTime/ 2 && ChatUiMinusPosition.y <= chatUI.transform.position.y)
+        if (isChange_down)
         {
-            chatUI.transform.Translate(0, -700 * Time.deltaTime, 0);
-        }
-        else if (Time.time <= startTime + usingTime && ChatUiPosition.y >= chatUI.transform.position.y)
-        {
-            if (!isColorChanged) {
-                changeColor(ToChangeColor);
-                isColorChanged = true;
-                //SoundManager.soundManager.PlayTextUpSound();
+            if (ChatUiMinusPosition.y <= chatUIRectTr.position.y)
+            {
+                chatUIRectTr.Translate(0, -CHAT_DOWN_AND_UP_SPEED * Time.deltaTime, 0);
             }
-            chatUI.transform.Translate(0, 700 * Time.deltaTime, 0);
+            else {
+                changeColor(ToChangeColor);
+                chatUIRectTr.position = ChatUiMinusPosition;
+                isChange_down = false;
+            }
         }
-        else
-        {
-            chatUI.transform.position = ChatUiPosition;
-            isChange = false;
-            NextChat();
+        else {
+            if (ChatUiPosition.y >= chatUIRectTr.position.y)
+            {
+                chatUIRectTr.Translate(0, CHAT_DOWN_AND_UP_SPEED * Time.deltaTime, 0);
+            }
+            else
+            {
+                chatUIRectTr.position = ChatUiPosition;
+                isChange = false;
+                NextChat();
+            }
         }
     }
 
     private void ChatUIOnlyUp()
     {
-        if (Time.time <= startTime + usingTime && ChatUiPosition.y >= chatUI.transform.position.y)
+        if (ChatUiPosition.y >= chatUIRectTr.position.y)
         {
-            chatUI.transform.Translate(0, 350 * Time.deltaTime, 0);
+            chatUIRectTr.Translate(0, CHAT_DOWN_SPEED * Time.deltaTime, 0);
         }
         else
         {
-            chatUI.transform.position = ChatUiPosition;
+            chatUIRectTr.position = ChatUiPosition;
             isUp = false;
             NextChat();
         }
@@ -488,13 +522,13 @@ public class ChatManager : MonoBehaviour
 
     private void ChatUIOnlyDown()
     {
-        if (Time.time <= startTime + usingTime && ChatUiMinusPosition.y <= chatUI.transform.position.y)
+        if (ChatUiMinusPosition.y <= chatUIRectTr.position.y)
         {
-            chatUI.transform.Translate(0, -350 * Time.deltaTime, 0);
+            chatUIRectTr.Translate(0, -CHAT_DOWN_SPEED * Time.deltaTime, 0);
         }
         else
         {
-            chatUI.transform.position = ChatUiMinusPosition;
+            chatUIRectTr.position = ChatUiMinusPosition;
             isDown = false;
             NextChat();
         }
