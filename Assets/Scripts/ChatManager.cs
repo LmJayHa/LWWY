@@ -59,6 +59,8 @@ public class ChatManager : MonoBehaviour
 
     public bool isChat = false; // 현재 대화창이 켜져있는지 꺼져있는지 확인하는 변수
 
+    
+
     public delegate void EndListner();
     EndListner endListner;
 
@@ -89,7 +91,9 @@ public class ChatManager : MonoBehaviour
     private bool isHaveTimeLine;
 
     private int howManyTimeLines;
-    
+
+
+    private bool isSkipped = false; //스킵이 되었는가?
 
 
     PlayerAnimation.SeeWhere seeWhere;
@@ -115,6 +119,7 @@ public class ChatManager : MonoBehaviour
 
         isStart = false;
         isChat = true;
+        isSkipped = false;
         NextChat();
 
         chatUI.transform.position = ChatUiMinusPosition;
@@ -123,6 +128,7 @@ public class ChatManager : MonoBehaviour
     public void NextChat() // 대화를 다음으로 넘겨주는 함수
     {
         canNextChat = false;
+        isSkipped = false;
         string nextStr = streamReader.ReadLine();
         if (nextStr == null) {
             
@@ -294,10 +300,16 @@ public class ChatManager : MonoBehaviour
     {
         if(isChat) // 일단 실행되려면 채팅창이 켜져있어야됨
         {
-            if((Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0))&&isChat&&canNextChat)
+            if((Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0))&&isChat)
             {
-                SoundManager.soundManager.PlayNextTextSound();
-                NextChat();                     // 다음텍스트로 넘어가는 함수 실행
+                if (canNextChat)
+                {
+                    SoundManager.soundManager.PlayNextTextSound();
+                    NextChat();                     // 다음텍스트로 넘어가는 함수 실행
+                }
+                else if(!isSkipped) {
+                    isSkipped = true;
+                }
             }
 
         }
@@ -326,6 +338,7 @@ public class ChatManager : MonoBehaviour
 
         for (int i = 0; i < str.Length; i++)
         {
+            if (isSkipped) { chatText.text = str; break; }
             chatText.text += str[i];
             SoundManager.soundManager.PlayTextSound();
             yield return new WaitForSeconds(0.05f);
