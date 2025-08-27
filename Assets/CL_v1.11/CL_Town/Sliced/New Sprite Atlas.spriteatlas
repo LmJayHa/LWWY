@@ -40,6 +40,7 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: c5fe613597e29b348a777b5fa3a047a0, type: 3}
@@ -48,6 +49,8 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 18fbfed32221c94429a999342d70d592, type: 3}
     - {fileID: 2800000, guid: c7a8992a4234a954caab687361aac1d5, type: 3}
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21307660, guid: 15b367e11a2553d4c963cbcd75b9b8db, type: 3}
@@ -23293,5 +23296,6 @@ SpriteAtlas:
   - CLT_Terrain_279
   - CLT_Terrain_265
   - CLT_Terrain_215
+  m_RenderDataMap: {}
   m_Tag: New Sprite Atlas
   m_IsVariant: 0
