@@ -33,6 +33,7 @@ public class BackgroundSoundManager : MonoBehaviour
         bgmSource.loop = false;
     }
 
+
     public void PlayBackgroundSound(int idx, bool isLoop)
     {
         nowBackgroundSoundNum = idx;

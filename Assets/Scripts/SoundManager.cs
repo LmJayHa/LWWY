@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
@@ -42,6 +43,9 @@ public class SoundManager : MonoBehaviour
 
     public int FootStepIdx;
 
+    public Slider bgmSlider;
+    public Slider sfxSlider;
+
     private void Awake()
     {
 
@@ -49,18 +53,46 @@ public class SoundManager : MonoBehaviour
         sfxSource.loop = false;
         isStepping = false;
         FootStepIdx = 0;
+
+
+        InitializeVolumeSetting();
+    }
+
+    void InitializeVolumeSetting()
+    {
+        float savedBGM = PlayerPrefs.GetFloat("BGMVolume", 0.5f);
+        float savedSFX = PlayerPrefs.GetFloat("SFXVolume", 0.5f);
+
+        // 슬라이더와 믹서에 적용
+        bgmSlider.value = savedBGM;
+        sfxSlider.value = savedSFX;
+
+        SetBGMVolume(savedBGM);
+        SetSFXVolume(savedSFX);
+
+        // 슬라이더 이벤트 연결
+        bgmSlider.onValueChanged.AddListener(SetBGMVolume);
+        sfxSlider.onValueChanged.AddListener(SetSFXVolume);
+    }
+
+    public void SaveBGMVolume()
+    {
+        PlayerPrefs.SetFloat("BGMVolume", bgmSlider.value); // 값 저장
+    }
+
+    public void SaveSFXVolume()
+    {
+        PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value); // 값 저장
     }
 
     public void SetBGMVolume(float volume)
     {
-        // volume 값은 0.0001 ~ 1 사이의 값이어야 합니다. (슬라이더 값)
-        // 데시벨은 로그 스케일이므로 아래처럼 변환해야 자연스럽게 조절됩니다.
-        mainMixer.SetFloat("BGMVolume", Mathf.Log10(volume) * 20);
+        mainMixer.SetFloat("BGMVolume", Mathf.Log10(Mathf.Clamp(volume, 0.0001f, 1f)) * 20);
     }
 
     public void SetSFXVolume(float volume)
     {
-        mainMixer.SetFloat("SFXVolume", Mathf.Log10(volume) * 20);
+        mainMixer.SetFloat("SFXVolume", Mathf.Log10(Mathf.Clamp(volume, 0.0001f, 1f)) * 20);    
     }
 
     public void PlayEffectClip(int idx) {
